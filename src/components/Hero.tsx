@@ -3,12 +3,13 @@
 import { Button } from '@/components/ui/Button';
 import { ChevronRight, Heart, Users, Church } from 'lucide-react';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 interface HeroProps {
   title?: string;
   subtitle?: string;
   description?: string;
-  backgroundImage?: string;
+  backgroundImages?: string[];
   ctaButton?: {
     text: string;
     href: string;
@@ -21,28 +22,63 @@ interface HeroProps {
 
 const Hero = ({
   title = "Friends Connection Ministry",
-  subtitle = "Connecting Communities Through Faith",
+  subtitle = "Together in Christ. Together on Mission.",
   description = "Uniting 5 churches across our community in fellowship, worship, and service to God and our neighbors.",
-  backgroundImage = "/living-water-baptist-church.png",
+  backgroundImages = ["/carousel-1.jpg", "/carousel-2.jpg", "/carousel-3.jpg"],
   ctaButton = { text: "Find Your Church", href: "/churches" },
   secondaryButton = { text: "Learn About Us", href: "/about" }
 }: HeroProps) => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    if (!backgroundImages || backgroundImages.length === 0) return;
+    
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % backgroundImages.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [backgroundImages]);
+
   return (
-    <div className="relative bg-gradient-to-r from-blue-900 to-purple-900 overflow-hidden">
-      {/* Background Image */}
-      {backgroundImage && (
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
-          style={{ backgroundImage: `url(${backgroundImage})` }}
-        />
+    <div className="relative overflow-hidden min-h-screen lg:min-h-[85vh] xl:min-h-[90vh]">
+      {/* Background Carousel */}
+      {backgroundImages && backgroundImages.length > 0 && (
+        <div className="absolute inset-0 w-full h-full">
+          {backgroundImages.map((image, index) => (
+            <div
+              key={index}
+              className={`absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
+                index === currentSlide ? 'opacity-30' : 'opacity-0'
+              }`}
+              style={{ backgroundImage: `url(${image})` }}
+            />
+          ))}
+          
+          {/* Pagination Dots */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+            {backgroundImages.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentSlide(index)}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  index === currentSlide 
+                    ? 'bg-white scale-125' 
+                    : 'bg-white/50 hover:bg-white/75'
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
+        </div>
       )}
       
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-purple-900/80" />
+      {/* Subtle dark overlay for text readability */}
+      <div className="absolute inset-0 bg-black/30 z-10" />
       
       {/* Content */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
-        <div className="text-center">
+      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 lg:py-40 flex items-center min-h-screen lg:min-h-[85vh] xl:min-h-[90vh]">
+        <div className="text-center w-full">
           {/* Ministry Stats */}
           <div className="flex justify-center space-x-8 mb-8">
             <div className="flex items-center text-white/90">

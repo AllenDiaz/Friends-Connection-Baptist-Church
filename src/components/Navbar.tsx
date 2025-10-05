@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ChevronDownIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const Navbar = () => {
@@ -12,16 +13,18 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { 
-      name: 'Ministries', 
-      href: '/ministries',
+      name: 'Our Churches', 
+      href: '/churches',
       dropdown: [
-        { name: 'Youth Ministry', href: '/ministries/youth' },
-        { name: 'Children\'s Ministry', href: '/ministries/children' },
-        { name: 'Women\'s Ministry', href: '/ministries/women' },
-        { name: 'Men\'s Ministry', href: '/ministries/men' },
+        { name: 'Living Water Baptist Church', href: '/churches/living-water-baptist' },
+        { name: 'Solid Rocks Baptist Church', href: '/churches/solid-rocks-baptist' },
+        { name: 'Faith Community Church', href: '/churches/faith-community' },
+        { name: 'Grace Covenant Church', href: '/churches/grace-covenant' },
+        { name: 'New Hope Fellowship', href: '/churches/new-hope-fellowship' },
       ]
     },
-    { name: 'Services', href: '/services' },
+    { name: 'Ministries', href: '/ministries' },
+    { name: 'Leadership', href: '/leadership' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -31,14 +34,18 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo and Church Name */}
           <div className="flex items-center space-x-3">
-            <div className="flex-shrink-0">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">✝</span>
-              </div>
-            </div>
+            <Link href="/" className="flex-shrink-0">
+              <Image
+                src="/logo.png"
+                alt="Friends Connection Ministry Logo"
+                width={40}
+                height={40}
+                className="w-10 h-10 object-contain"
+              />
+            </Link>
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-gray-900">Grace Community Church</h1>
-              <p className="text-xs text-gray-600">Growing in Faith Together</p>
+              <h1 className="text-xl font-bold text-gray-900">Friends Connection Ministry</h1>
+              <p className="text-xs text-gray-600">Connecting Communities Through Faith</p>
             </div>
           </div>
 
@@ -89,10 +96,10 @@ const Navbar = () => {
           {/* Call to Action Button */}
           <div className="hidden lg:block">
             <Link
-              href="/visit"
+              href="/churches"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full text-sm font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-md hover:shadow-lg"
             >
-              Plan Your Visit
+              Find Your Church
             </Link>
           </div>
 
@@ -155,11 +162,11 @@ const Navbar = () => {
             ))}
             <div className="pt-4">
               <Link
-                href="/visit"
+                href="/churches"
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white block px-3 py-2 rounded-md text-base font-medium text-center transition-all duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                Plan Your Visit
+                Find Your Church
               </Link>
             </div>
           </div>

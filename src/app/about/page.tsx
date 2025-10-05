@@ -5,9 +5,9 @@ export default function About() {
       <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-6">About Grace Community Church</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold mb-6">About Friends Connection Ministry</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Discover our story, values, and the heart behind our ministry
+              Discover our story, mission, and the heart behind uniting churches in faith and fellowship
             </p>
           </div>
         </div>
@@ -20,25 +20,31 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-700 mb-6">
-                Grace Community Church was founded in 1995 with a simple vision: to create a place 
-                where people could experience God's grace, grow in their faith, and build meaningful 
-                relationships with others.
+                Friends Connection Ministry was founded in 2000 with a revolutionary vision: to unite 
+                independent Baptist churches in a network of mutual support, shared resources, and 
+                collaborative ministry that strengthens the entire body of Christ.
               </p>
               <p className="text-gray-700 mb-6">
-                What started as a small group of families meeting in a local school has grown into 
-                a vibrant community of believers from all walks of life. Yet through all our growth, 
-                we've maintained our commitment to authentic faith, genuine community, and practical service.
+                What began as informal fellowship between three pastors has grown into a thriving 
+                ministry network of five churches serving over 1,300 members across our community. 
+                Each church maintains its unique identity and pastoral leadership while participating 
+                in shared ministries that no single congregation could accomplish alone.
               </p>
               <p className="text-gray-700">
-                Today, we continue to be a church that welcomes everyone, regardless of where they 
-                are in their spiritual journey.
+                Today, we continue to demonstrate that unity doesn't mean uniformity, and that 
+                together we can accomplish far more than we ever could apart.
               </p>
             </div>
             <div className="bg-blue-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold text-blue-800 mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-semibold text-blue-800 mb-4">Our Mission</h3>
+              <p className="text-gray-700 italic text-lg mb-4">
+                "To strengthen local churches through partnership, shared ministry, and mutual support, 
+                creating a network that multiplies our impact for the Kingdom of God."
+              </p>
+              
+              <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-6">Our Vision</h3>
               <p className="text-gray-700 italic text-lg">
-                "To be a community where people experience the transforming love of Jesus Christ 
-                and are equipped to make a difference in the world."
+                "A community of churches united in purpose, diverse in expression, and powerful in impact."
               </p>
             </div>
           </div>

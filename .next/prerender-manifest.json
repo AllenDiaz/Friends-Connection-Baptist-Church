@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "32965400cbbf8bf7d1113d02b71ce7b6",
-    "previewModeSigningKey": "93021d699ce9c27e86d4797956f8958b53d12ae0ba3943634664763b5a68ad2e",
-    "previewModeEncryptionKey": "c6f62f8ce5029bdfad46b2f95e4a9337ddb6f73b231f7fbaa2f41e531fb5cd9a"
-  }
-}
+{"version":4,"routes":{"/churches/living-water-baptist":{},"/churches/solid-rocks-baptist":{},"/churches/faith-community":{},"/churches/grace-covenant":{},"/churches/new-hope-fellowship":{}},"dynamicRoutes":{"/churches/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/churches/[slug]","routeRegex":"^\\/churches\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"32965400cbbf8bf7d1113d02b71ce7b6","previewModeSigningKey":"93021d699ce9c27e86d4797956f8958b53d12ae0ba3943634664763b5a68ad2e","previewModeEncryptionKey":"c6f62f8ce5029bdfad46b2f95e4a9337ddb6f73b231f7fbaa2f41e531fb5cd9a"}}

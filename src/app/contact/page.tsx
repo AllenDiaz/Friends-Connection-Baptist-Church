@@ -1,4 +1,5 @@
 import ContactForm from '@/components/ContactForm';
+import Link from 'next/link';
 
 export default function Contact() {
   return (
@@ -9,7 +10,7 @@ export default function Contact() {
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">Contact Friends Connection Ministry</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              We'd love to hear from you! Reach out with questions about our churches, ministries, or how to get connected.
+              We&apos;d love to hear from you! Reach out with questions about our churches, ministries, or how to get connected.
             </p>
           </div>
         </div>
@@ -164,14 +165,14 @@ export default function Contact() {
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 rounded-lg flex flex-col justify-center items-center text-center">
               <h3 className="text-lg font-semibold mb-2">Not Sure Which Church?</h3>
               <p className="text-blue-100 text-sm mb-4">
-                We'd be happy to help you find the perfect church home within our ministry network.
+                We&apos;d be happy to help you find the perfect church home within our ministry network.
               </p>
-              <a 
+              <Link 
                 href="/churches" 
                 className="bg-white text-blue-600 px-4 py-2 rounded font-medium text-sm hover:bg-blue-50 transition-colors"
               >
-                Explore All Churches
-              </a>
+                Browse Our Churches
+              </Link>
             </div>
           </div>
         </div>

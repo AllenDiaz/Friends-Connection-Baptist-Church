@@ -100,7 +100,7 @@ const ContactForm = ({
         </div>
         <h3 className="text-xl font-semibold text-gray-900 mb-2">Message Sent!</h3>
         <p className="text-gray-600">
-          Thank you for reaching out. We'll get back to you as soon as possible.
+          Thank you for reaching out. We&apos;ll get back to you as soon as possible.
         </p>
       </div>
     );

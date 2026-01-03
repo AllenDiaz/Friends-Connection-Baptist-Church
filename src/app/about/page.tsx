@@ -73,7 +73,7 @@ export default function About() {
                 <p className="text-gray-700 mb-4">
                   Through our network of 12 Baptist churches across the Philippines, we create lasting 
                   connections that strengthen the body of Christ. Our partnerships enable ministry 
-                  growth and provide essential resources where they're needed most.
+                growth and provide essential resources where they&apos;re needed most.
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Biblical Truth</h3>
               <p className="text-gray-600">
-                We believe the Bible is God's Word and the foundation for faith and life.
+                We believe the Bible is God&apos;s Word and the foundation for faith and life.
               </p>
             </div>
             
@@ -148,7 +148,7 @@ export default function About() {
               <p className="text-blue-600 mb-2">Senior Pastor</p>
               <p className="text-gray-600 text-sm">
                 Pastor John has been leading Grace Community Church since 2010. He is passionate 
-                about teaching God's Word and helping people grow in their faith.
+                about teaching God&apos;s Word and helping people grow in their faith.
               </p>
             </div>
             

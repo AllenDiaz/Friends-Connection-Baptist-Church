@@ -222,7 +222,7 @@ export default function Home() {
             <div className="p-6">
               <div className="text-4xl font-bold text-orange-600 mb-2">∞</div>
               <p className="text-gray-700 font-medium">Lives Transformed</p>
-              <p className="text-sm text-gray-500">Through God's grace</p>
+              <p className="text-sm text-gray-500">Through God&apos;s grace</p>
             </div>
           </div>
         </div>

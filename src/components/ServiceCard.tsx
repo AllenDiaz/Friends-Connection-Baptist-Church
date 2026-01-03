@@ -1,6 +1,6 @@
 'use client';
 
-import { Clock, MapPin, Users } from 'lucide-react';
+import { Clock, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
 export interface ServiceData {

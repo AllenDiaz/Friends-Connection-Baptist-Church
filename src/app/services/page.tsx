@@ -123,7 +123,7 @@ export default function Services() {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Wednesday Bible Study</h3>
               <p className="text-gray-600 mb-3">7:00 PM - 8:30 PM</p>
               <p className="text-gray-700 mb-4">
-                Join us for an in-depth study of God's Word. We explore different books of the Bible 
+                Join us for an in-depth study of God&apos;s Word. We explore different books of the Bible 
                 and discuss how to apply biblical principles to our daily lives.
               </p>
               <div className="text-sm text-gray-600">
@@ -188,11 +188,11 @@ export default function Services() {
                 </div>
                 <div className="border-l-4 border-purple-600 pl-4">
                   <h4 className="font-semibold text-gray-900">Easter Celebration</h4>
-                  <p className="text-gray-600">Sunrise service, special music, and celebration of Christ's resurrection</p>
+                  <p className="text-gray-600">Sunrise service, special music, and celebration of Christ&apos;s resurrection</p>
                 </div>
                 <div className="border-l-4 border-green-600 pl-4">
                   <h4 className="font-semibold text-gray-900">Thanksgiving Service</h4>
-                  <p className="text-gray-600">Community gathering to give thanks and share God's blessings</p>
+                  <p className="text-gray-600">Community gathering to give thanks and share God&apos;s blessings</p>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Join Us This Sunday</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Whether you prefer traditional or contemporary worship, you'll find a welcoming community 
+            Whether you prefer traditional or contemporary worship, you&apos;ll find a welcoming community 
             ready to worship God together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

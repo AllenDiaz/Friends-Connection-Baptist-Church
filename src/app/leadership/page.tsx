@@ -109,9 +109,9 @@ export default function LeadershipPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Interested in Leadership?</h2>
           <p className="text-lg text-gray-600 mb-8">
-            We're always looking for faithful servants to join our ministry teams. 
+            We&apos;re always looking for faithful servants to join our ministry teams. 
             Whether you feel called to local church leadership or ministry-wide service, 
-            we'd love to talk with you about opportunities to serve.
+            we&apos;d love to talk with you about opportunities to serve.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 

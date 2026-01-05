@@ -13,34 +13,38 @@ export default function About() {
         </div>
       </section>
 
-      {/* Mission, Vision & About Us */}
+      {/* Our Story */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission, Vision & Heart</h2>
-            <p className="text-lg text-gray-600">Discover what drives Friends Connection in our commitment to serving missionaries and pastors</p>
-          </div>
-          
-          <div className="grid lg:grid-cols-3 gap-8 mb-12">
-            {/* Mission */}
-            <div className="bg-blue-50 p-8 rounded-lg text-center">
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white text-2xl font-bold">M</span>
-              </div>
-              <h3 className="text-2xl font-semibold text-blue-800 mb-4">Our Mission</h3>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                To give God all the glory and honors as we endeavor together with pastors and missionaries
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+              <p className="text-lg text-gray-700 mb-6">
+                Friends Connection Ministry was founded in 2000 with a revolutionary vision: to unite 
+                independent Baptist churches in a network of mutual support, shared resources, and 
+                collaborative ministry that strengthens the entire body of Christ.
+              </p>
+              <p className="text-gray-700 mb-6">
+                What began as informal fellowship between three pastors has grown into a thriving 
+                ministry network of five churches serving over 1,300 members across our community. 
+                Each church maintains its unique identity and pastoral leadership while participating 
+                in shared ministries that no single congregation could accomplish alone.
+              </p>
+              <p className="text-gray-700">
+                Today, we continue to demonstrate that unity doesn't mean uniformity, and that 
+                together we can accomplish far more than we ever could apart.
               </p>
             </div>
-
-            {/* Vision */}
-            <div className="bg-purple-50 p-8 rounded-lg text-center">
-              <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white text-2xl font-bold">V</span>
-              </div>
-              <h3 className="text-2xl font-semibold text-purple-800 mb-4">Our Vision</h3>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                To help our co-laborers of the Lord to grow their ministry by having their needs met
+            <div className="bg-blue-50 p-8 rounded-lg">
+              <h3 className="text-2xl font-semibold text-blue-800 mb-4">Our Mission</h3>
+              <p className="text-gray-700 italic text-lg mb-4">
+                "To strengthen local churches through partnership, shared ministry, and mutual support, 
+                creating a network that multiplies our impact for the Kingdom of God."
+              </p>
+              
+              <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-6">Our Vision</h3>
+              <p className="text-gray-700 italic text-lg">
+                "A community of churches united in purpose, diverse in expression, and powerful in impact."
               </p>
             </div>
 

@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 text-sm">
-              Connecting communities through faith, fellowship, and service across our network of churches.
+              Together in Christ. Together on Mission., fellowship, and service across our network of churches.
             </p>
             
             <div className="flex space-x-4">

@@ -171,7 +171,7 @@ export default function Contact() {
                 href="/churches" 
                 className="bg-white text-blue-600 px-4 py-2 rounded font-medium text-sm hover:bg-blue-50 transition-colors"
               >
-                Browse Our Churches
+                Explore All Churches
               </Link>
             </div>
           </div>

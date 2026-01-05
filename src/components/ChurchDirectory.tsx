@@ -37,10 +37,10 @@ const ChurchDirectory = ({ churches, className = '' }: ChurchDirectoryProps) => 
     <div className={`space-y-8 ${className}`}>
       {/* Header */}
       <div className="text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Member Churches</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Friends Connection Churches</h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Discover the diverse congregations that make up our Friends Connection Ministry family. 
-          Each church brings its unique character while sharing our common mission.
+          Explore our 12 Baptist churches across the Philippines, each led by dedicated pastors 
+          and committed to spreading the Gospel throughout their communities.
         </p>
       </div>
 

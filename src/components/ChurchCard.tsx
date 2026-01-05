@@ -30,12 +30,12 @@ const ChurchCard = ({ church, className = '' }: ChurchCardProps) => {
     <div className={`bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 ${className}`}>
       {/* Church Image */}
       {church.image && (
-        <div className="relative h-48 bg-gray-200">
+        <div className="relative h-48 bg-white flex items-center justify-center p-4">
           <Image
             src={church.image}
             alt={church.name}
             fill
-            className="object-cover"
+            className="object-contain"
           />
         </div>
       )}

@@ -23,7 +23,7 @@ interface HeroProps {
 const Hero = ({
   title = "Friends Connection Ministry",
   subtitle = "Together in Christ. Together on Mission.",
-  description = "Uniting 5 churches across our community in fellowship, worship, and service to God and our neighbors.",
+  description = "Uniting churches across our community in fellowship, worship, and service to God and our neighbors.",
   backgroundImages = ["/carousel-1.jpg", "/carousel-2.jpg", "/carousel-3.jpg"],
   ctaButton = { text: "Find Your Church", href: "/churches" },
   secondaryButton = { text: "Learn About Us", href: "/about" }

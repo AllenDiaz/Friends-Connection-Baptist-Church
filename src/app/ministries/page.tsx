@@ -143,12 +143,12 @@ export default function Ministries() {
             Find where you belong in our church family.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
+            <Link 
               href="/contact" 
               className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200"
             >
               Contact Ministry Leaders
-            </a>
+            </Link>
             <Link 
               href="/churches" 
               className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-200"

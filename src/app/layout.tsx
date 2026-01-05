@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Friends Connection Ministry - Connecting Communities Through Faith",
-  description: "Welcome to Friends Connection Ministry. Uniting 5 churches across our community in fellowship, worship, and service to God and our neighbors.",
+  title: "Friends Connection Ministry - Together in Christ. Together on Mission.",
+  description: "Welcome to Friends Connection Ministry. Uniting churches across our community in fellowship, worship, and service to God and our neighbors.",
 };
 
 export default function RootLayout({

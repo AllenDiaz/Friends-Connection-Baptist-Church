@@ -143,32 +143,53 @@ export default function About() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Pastor John Smith</h3>
-              <p className="text-blue-600 mb-2">Senior Pastor</p>
+              <div className="w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center">
+                <img 
+                  src="/pastor-robert-young.jpg" 
+                  alt="Pastor Robert Young"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Ptr. Robert (Tim) Young</h3>
+              <p className="text-blue-600 mb-2">Pastor</p>
+              <p className="text-gray-600 text-sm mb-2 font-medium">International Baptist Church of Pinellas INC</p>
               <p className="text-gray-600 text-sm">
-                Pastor John has been leading Grace Community Church since 2010. He is passionate 
-                about teaching God&apos;s Word and helping people grow in their faith.
+                Ptr. Robert Young serves as the pastor of International Baptist Church of Pinellas INC in Florida, 
+                bringing biblical teaching and Christian fellowship to the diverse international community of Pinellas Park.
               </p>
             </div>
             
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Pastor Sarah Johnson</h3>
-              <p className="text-purple-600 mb-2">Associate Pastor</p>
+              <div className="w-32 h-32 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center">
+                <img 
+                  src="/living-water-baptist-church-pastor.jpg" 
+                  alt="Rev. Alfredo Eborda"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Rev. Alfredo (Fred) Eborda</h3>
+              <p className="text-purple-600 mb-2">Pastor</p>
+              <p className="text-gray-600 text-sm mb-2 font-medium">Living Water Baptist Church of Nueva Ecija</p>
               <p className="text-gray-600 text-sm">
-                Pastor Sarah oversees our ministries and community outreach. She has a heart 
-                for connecting people and building strong relationships.
+                Rev. Alfredo Eborda leads Living Water Baptist Church with dedication and love, bringing spiritual 
+                nourishment through the living water of Christ to the community of Nieves, San Leonardo.
               </p>
             </div>
             
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Mike Williams</h3>
-              <p className="text-green-600 mb-2">Worship Pastor</p>
+              <div className="w-32 h-32 bg-gradient-to-br from-green-400 to-green-600 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center">
+                <img 
+                  src="/pastor-robert-pascual.png" 
+                  alt="Pastor Roberto Pascual"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Ptr. Roberto Pascual</h3>
+              <p className="text-green-600 mb-2">Pastor</p>
+              <p className="text-gray-600 text-sm mb-2 font-medium">Friendship Gospel Bible Baptist Church</p>
               <p className="text-gray-600 text-sm">
-                Mike leads our worship team and helps create an environment where people 
-                can connect with God through music and prayer.
+                As pastor of one of the founding churches of Friends Connection, Ptr. Roberto Pascual leads 
+                Friendship Gospel Bible Baptist Church in Tabuating with faithful biblical teaching and community fellowship.
               </p>
             </div>
           </div>

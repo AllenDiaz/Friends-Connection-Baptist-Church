@@ -7,6 +7,7 @@ const churches: ChurchData[] = [
     id: 'international-baptist-pinellas',
     name: 'International Baptist Church of Pinellas INC',
     description: 'Serving the international community in Florida with biblical teaching and Christian fellowship.',
+    image: '/international-baptist-church-of-pinellas.jpg',
     pastor: 'Ptr. Robert Young',
     pastorImage: '/pastor-robert-young.jpg',
     address: '5955 Park Blvd North Pinellas Park Florida, 33781',

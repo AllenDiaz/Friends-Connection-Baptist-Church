@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Friends Connection Ministry - Together in Christ. Together on Mission.",
+  title: "Friends Connection Ministry - Work  Integrity  Equality",
   description: "Welcome to Friends Connection Ministry. Uniting churches across our community in fellowship, worship, and service to God and our neighbors.",
 };
 

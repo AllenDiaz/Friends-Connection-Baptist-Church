@@ -11,6 +11,7 @@ const churches: ChurchData[] = [
     id: 'international-baptist-pinellas',
     name: 'International Baptist Church of Pinellas INC',
     description: 'Serving the international community in Florida with biblical teaching and Christian fellowship.',
+    image: '/international-baptist-church-of-pinellas.jpg',
     pastor: 'Ptr. Robert Young',
     pastorImage: '/pastor-robert-young.jpg',
     address: '5955 Park Blvd North Pinellas Park Florida, 33781',
@@ -239,7 +240,7 @@ export default function Home() {
             </div>
             
             <div className="p-6">
-              <div className="text-4xl font-bold text-purple-600 mb-2">13</div>
+              <div className="text-4xl font-bold text-purple-600 mb-2">20</div>
               <p className="text-gray-700 font-medium">Dedicated Pastors</p>
               <p className="text-sm text-gray-500">Serving their communities</p>
             </div>

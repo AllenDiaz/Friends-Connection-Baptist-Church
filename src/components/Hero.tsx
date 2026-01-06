@@ -22,7 +22,7 @@ interface HeroProps {
 
 const Hero = ({
   title = "Friends Connection Ministry",
-  subtitle = "Together in Christ. Together on Mission.",
+  subtitle = "Work  Integrity  Equality",
   description = "Uniting churches across our community in fellowship, worship, and service to God and our neighbors.",
   backgroundImages = ["/carousel-1.jpg", "/carousel-2.jpg", "/carousel-3.jpg"],
   ctaButton = { text: "Find Your Church", href: "/churches" },
@@ -83,11 +83,11 @@ const Hero = ({
           <div className="flex justify-center space-x-8 mb-8">
             <div className="flex items-center text-white/90">
               <Church className="w-5 h-5 mr-2" />
-              <span className="text-sm">5 Churches</span>
+              <span className="text-sm"> 14 Churches</span>
             </div>
             <div className="flex items-center text-white/90">
               <Users className="w-5 h-5 mr-2" />
-              <span className="text-sm">1000+ Members</span>
+              <span className="text-sm">20 Pastors</span>
             </div>
             <div className="flex items-center text-white/90">
               <Heart className="w-5 h-5 mr-2" />

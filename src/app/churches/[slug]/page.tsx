@@ -61,7 +61,7 @@ const churchData: { [key: string]: ChurchData & {
     fullDescription: 'Living Water Baptist Church of Nueva Ecija has been a cornerstone of faith in the Nieves community. Under the pastoral leadership of Rev. Alfredo Eborda, this church is dedicated to spreading the Gospel and nurturing spiritual growth through the living water of Christ. We believe in the transformative power of God\'s Word and the importance of authentic relationships within our church family.',
     image: '/living-water-baptist-church.png',
     pastor: 'Rev. Alfredo Eborda',
-    pastorImage: '/livig-water-baptist-church-pastor.jpg',
+    pastorImage: '/living-water-baptist-church-pastor.jpg',
     address: 'Nieves, San Leonardo Nueva Ecija',
     phone: 'Contact through Friends Connection',
     email: 'info@friendsconnection.org',

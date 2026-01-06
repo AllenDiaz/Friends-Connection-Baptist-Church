@@ -5,22 +5,22 @@
   "devFiles": [],
   "ampDevFiles": [],
   "polyfillFiles": [
-    "static/chunks/f39b2_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/7a226_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [
     "static/development/_ssgManifest.js",
     "static/development/_buildManifest.js"
   ],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_7a0ee9cd._.js",
-    "static/chunks/f39b2_next_dist_compiled_react-dom_30528ebd._.js",
-    "static/chunks/f39b2_next_dist_compiled_next-devtools_index_4fb92669.js",
-    "static/chunks/f39b2_next_dist_compiled_87d6eb74._.js",
-    "static/chunks/f39b2_next_dist_client_98d7e770._.js",
-    "static/chunks/f39b2_next_dist_094f9938._.js",
-    "static/chunks/f39b2_@swc_helpers_cjs_1bbc39bb._.js",
-    "static/chunks/OneDrive - Safeway, Inc_Desktop_friends-connection_a0ff3932._.js",
-    "static/chunks/turbopack-OneDrive - Safeway, Inc_Desktop_friends-connection_c09f16ae._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_7a626aef._.js",
+    "static/chunks/7a226_next_dist_compiled_react-dom_d338be5c._.js",
+    "static/chunks/7a226_next_dist_compiled_next-devtools_index_7083effa.js",
+    "static/chunks/7a226_next_dist_compiled_4e4b1b3c._.js",
+    "static/chunks/7a226_next_dist_client_84f039f6._.js",
+    "static/chunks/7a226_next_dist_80b90f15._.js",
+    "static/chunks/7a226_@swc_helpers_cjs_5061f958._.js",
+    "static/chunks/ce802_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a0ff3932._.js",
+    "static/chunks/5a167_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a01cc351._.js"
   ],
   "ampFirstPages": []
 }

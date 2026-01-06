@@ -89,44 +89,34 @@ export default function About() {
             <p className="text-lg text-gray-600">These values guide everything we do as a church family</p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">📖</span>
+                <span className="text-white text-2xl">💼</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Biblical Truth</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Work</h3>
               <p className="text-gray-600">
-                We believe the Bible is God&apos;s Word and the foundation for faith and life.
+                We are committed to excellence and dedication in all our endeavors, serving with diligence and purpose.
               </p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">❤️</span>
+                <span className="text-white text-2xl">✨</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Authentic Community</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Integrity</h3>
               <p className="text-gray-600">
-                We foster genuine relationships where people can be real and find belonging.
+                We uphold honesty, transparency, and moral principles in all our actions and relationships.
               </p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🌱</span>
+                <span className="text-white text-2xl">⚖️</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Spiritual Growth</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Equality</h3>
               <p className="text-gray-600">
-                We encourage everyone to grow deeper in their relationship with Jesus.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🤝</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Compassionate Service</h3>
-              <p className="text-gray-600">
-                We serve others as Jesus served, showing love through our actions.
+                We treat everyone with respect and fairness, recognizing the inherent worth and dignity of all people.
               </p>
             </div>
           </div>

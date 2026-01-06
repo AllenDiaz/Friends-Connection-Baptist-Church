@@ -211,16 +211,16 @@ const churchData: { [key: string]: ChurchData & {
   },
   'good-shepherd-palayan': {
     id: 'good-shepherd-palayan',
-    name: 'Good Shepherd Baptist Mission',
+    name: 'Good Shepherd Baptist Church',
     description: 'A caring community following the Good Shepherd, providing spiritual guidance and fellowship in Palayan City.',
-    fullDescription: 'True to its name, Good Shepherd Baptist Mission provides caring pastoral ministry to the people of Palayan City. Under the leadership of Ptr. Isagani (Jim) Dela Cruz, this church embodies the heart of the Good Shepherd, offering spiritual guidance, comfort, and community support to all who seek fellowship.',
+    fullDescription: 'True to its name, Good Shepherd Baptist Church provides caring pastoral ministry to the people of Palayan City. Under the leadership of Ptr. Isagani (Jim) Dela Cruz, this church embodies the heart of the Good Shepherd, offering spiritual guidance, comfort, and community support to all who seek fellowship.',
     image: '/good-shepherd-baptist-mission.jpg',
     pastor: 'Ptr. Isagani (Jim) Dela Cruz',
     address: 'Palayan City',
     phone: 'Contact through Friends Connection',
     email: 'info@friendsconnection.org',
     serviceTime: 'Sundays - Contact for service times',
-    history: 'Good Shepherd Baptist Mission has established itself as a beacon of hope in Palayan City, providing faithful ministry and community care that reflects the loving nature of Christ, the Good Shepherd.',
+    history: 'Good Shepherd Baptist Church has established itself as a beacon of hope in Palayan City, providing faithful ministry and community care that reflects the loving nature of Christ, the Good Shepherd.',
     services: [
       {
         id: 'worship-service',

@@ -94,9 +94,9 @@ const leaders: LeaderData[] = [
   {
     id: 'isagani-dela-cruz',
     name: 'Ptr. Isagani (Jim) Dela Cruz',
-    position: 'Pastor, Good Shepherd Baptist Mission',
+    position: 'Pastor, Good Shepherd Baptist Church',
     bio: 'Ptr. Isagani (Jim) Dela Cruz provides caring pastoral ministry to the people of Palayan City, embodying the heart of the Good Shepherd through spiritual guidance and community support.',
-    church: 'Good Shepherd Baptist Mission'
+    church: 'Good Shepherd Baptist Church'
   },
   {
     id: 'rolando-de-guzman',

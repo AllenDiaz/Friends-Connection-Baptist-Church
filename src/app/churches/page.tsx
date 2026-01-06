@@ -65,7 +65,7 @@ const churches: ChurchData[] = [
   },
   {
     id: 'good-shepherd-palayan',
-    name: 'Good Shepherd Baptist Mission',
+    name: 'Good Shepherd Baptist Church',
     description: 'A caring community following the Good Shepherd, providing spiritual guidance and fellowship in Palayan City.',
     image: '/good-shepherd-baptist-mission.jpg',
     pastor: 'Ptr. Isagani (Jim) Dela Cruz',

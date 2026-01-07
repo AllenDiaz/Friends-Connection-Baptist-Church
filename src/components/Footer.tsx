@@ -47,13 +47,13 @@ const Footer = () => {
                 View All Events
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </Link>
-            </div>all duration-300 hover:scale-110 transform">
-                <Facebook className="w-5 h-5" />
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110 transform">
-                <Instagram className="w-5 h-5" />
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110 transform
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+              {upcomingEvents.map((event) => (
+                <Link
+                  key={event.id}
+                  href={`/events/${event.slug}`}
                   className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:bg-white/20 transition-all duration-300 hover:scale-105 transform group"
                 >
                   <p className="text-sm text-blue-100 mb-1 flex items-center gap-2">
@@ -93,13 +93,13 @@ const Footer = () => {
             </p>
             
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110 transform">
                 <Facebook className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110 transform">
                 <Instagram className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110 transform">
                 <Youtube className="w-5 h-5" />
               </Link>
             </div>

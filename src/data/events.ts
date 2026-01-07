@@ -386,6 +386,20 @@ export const mockEvents: Event[] = [
       '/images/gallery/christmas-2.jpg',
       '/images/gallery/christmas-3.jpg',
     ],
+    testimonials: [
+      {
+        name: 'Sarah Johnson',
+        role: 'Church Member',
+        comment: 'The candlelight service was absolutely beautiful and moving. It reminded us of the true meaning of Christmas.',
+        rating: 5,
+      },
+      {
+        name: 'Michael Chen',
+        role: 'Visitor',
+        comment: 'First time attending and we were blown away by the warmth and hospitality. The music was incredible!',
+        rating: 5,
+      },
+    ],
   },
   {
     id: '10',
@@ -424,6 +438,20 @@ export const mockEvents: Event[] = [
     gallery: [
       '/images/gallery/thanksgiving-1.jpg',
       '/images/gallery/thanksgiving-2.jpg',
+    ],
+    testimonials: [
+      {
+        name: 'Maria Rodriguez',
+        role: 'Community Member',
+        comment: 'Thank you for this amazing meal and fellowship. Your church truly embodies the spirit of giving.',
+        rating: 5,
+      },
+      {
+        name: 'David Thompson',
+        role: 'Volunteer',
+        comment: 'It was an honor to serve alongside such dedicated volunteers. Seeing the community come together was inspiring!',
+        rating: 5,
+      },
     ],
   },
   {
@@ -466,6 +494,20 @@ export const mockEvents: Event[] = [
       '/images/gallery/harvest-3.jpg',
       '/images/gallery/harvest-4.jpg',
     ],
+    testimonials: [
+      {
+        name: 'Jennifer Williams',
+        role: 'Parent',
+        comment: 'My kids had the best time! The activities were well-organized and the food was delicious. Can\'t wait for next year!',
+        rating: 5,
+      },
+      {
+        name: 'Robert Lee',
+        role: 'First-time Visitor',
+        comment: 'What a welcoming community! This was our first church event and everyone made us feel right at home.',
+        rating: 5,
+      },
+    ],
   },
   {
     id: '12',
@@ -500,6 +542,20 @@ export const mockEvents: Event[] = [
     gallery: [
       '/images/gallery/backtoschool-1.jpg',
       '/images/gallery/backtoschool-2.jpg',
+    ],
+    testimonials: [
+      {
+        name: 'Lisa Martinez',
+        role: 'Parent',
+        comment: 'This was such a blessing! The backpacks and supplies took a huge burden off our family. Thank you for caring for our community.',
+        rating: 5,
+      },
+      {
+        name: 'James Wilson',
+        role: 'Teacher',
+        comment: 'The prayer and encouragement meant so much. It\'s wonderful to see a church investing in education and our students.',
+        rating: 5,
+      },
     ],
   },
 ];

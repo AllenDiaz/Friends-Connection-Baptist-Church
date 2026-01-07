@@ -72,6 +72,17 @@ export interface EventRecurrence {
 }
 
 /**
+ * Event testimonial information
+ */
+export interface EventTestimonial {
+  name: string;
+  role?: string;
+  comment: string;
+  rating?: number; // 1-5
+  avatar?: string;
+}
+
+/**
  * Main Event interface
  */
 export interface Event {
@@ -118,6 +129,7 @@ export interface Event {
   agenda?: string[]; // Event schedule/agenda items
   highlights?: string[]; // Key points or features
   requirements?: string[]; // What to bring, prerequisites, etc.
+  testimonials?: EventTestimonial[]; // Attendee testimonials (for past events)
   
   // Metadata
   featured?: boolean; // Highlight on homepage

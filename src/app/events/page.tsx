@@ -8,6 +8,7 @@ import { EventFilters as EventFiltersType } from '@/types/event';
 import EventFilters from '@/components/events/EventFilters';
 import EventList from '@/components/events/EventList';
 import EventCalendar from '@/components/events/EventCalendar';
+import PastEventCard from '@/components/events/PastEventCard';
 import { Button } from '@/components/ui/Button';
 
 type TabView = 'upcoming' | 'past' | 'calendar';
@@ -208,12 +209,36 @@ export default function EventsPage() {
             ) : (
               /* List View */
               <>
-                <EventList
-                  events={paginatedEvents}
-                  loading={false}
-                  emptyMessage={`No ${activeTab} events found`}
-                  showViewToggle={true}
-                />
+                {/* Past Events - Special Layout */}
+                {activeTab === 'past' ? (
+                  <div className="space-y-6">
+                    {paginatedEvents.length > 0 ? (
+                      paginatedEvents.map((event) => (
+                        <PastEventCard key={event.id} event={event} />
+                      ))
+                    ) : (
+                      <div className="text-center py-12">
+                        <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-100 rounded-full mb-4">
+                          <Calendar className="w-8 h-8 text-gray-400" />
+                        </div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                          No past events found
+                        </h3>
+                        <p className="text-gray-600 max-w-md mx-auto">
+                          Check back later or adjust your filters to see more results.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  /* Upcoming Events - Regular Grid/List View */
+                  <EventList
+                    events={paginatedEvents}
+                    loading={false}
+                    emptyMessage={`No ${activeTab} events found`}
+                    showViewToggle={true}
+                  />
+                )}
 
                 {/* Pagination */}
                 {totalPages > 1 && (

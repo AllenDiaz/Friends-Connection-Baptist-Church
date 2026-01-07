@@ -21,6 +21,8 @@ import {
   ChevronRight,
   Download,
   CheckCircle,
+  Star,
+  Quote,
 } from 'lucide-react';
 import { mockEvents, getEventBySlug, categoryInfo } from '@/data/events';
 import {
@@ -315,6 +317,40 @@ END:VCALENDAR`;
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-300"
                       />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Testimonials for Past Events */}
+            {isEventPast && event.testimonials && event.testimonials.length > 0 && (
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <div className="flex items-center gap-2 mb-6">
+                  <Quote className="w-6 h-6 text-blue-600" />
+                  <h2 className="text-2xl font-bold text-gray-900">Attendee Testimonials</h2>
+                </div>
+                <div className="space-y-6">
+                  {event.testimonials.map((testimonial, index) => (
+                    <div key={index} className="bg-blue-50 rounded-lg p-6">
+                      <div className="flex items-start justify-between mb-3">
+                        <div>
+                          <p className="font-semibold text-gray-900 text-lg">{testimonial.name}</p>
+                          {testimonial.role && (
+                            <p className="text-sm text-gray-600">{testimonial.role}</p>
+                          )}
+                        </div>
+                        {testimonial.rating && (
+                          <div className="flex gap-1">
+                            {[...Array(testimonial.rating)].map((_, i) => (
+                              <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                      <p className="text-gray-700 italic leading-relaxed">
+                        "{testimonial.comment}"
+                      </p>
                     </div>
                   ))}
                 </div>

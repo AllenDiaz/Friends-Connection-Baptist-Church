@@ -26,13 +26,13 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Main Sanctuary',
     },
-    image: '/images/events/sunday-worship.jpg',
+    image: 'https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=800&q=80',
     imageAlt: 'Sunday worship service with congregation',
     speaker: {
       name: 'Pastor John Smith',
       title: 'Senior Pastor',
       bio: 'Pastor John has been leading our congregation for over 15 years with a heart for biblical teaching and community outreach.',
-      image: '/images/team/pastor-john.jpg',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
     },
     organizer: 'Worship Ministry',
     recurrence: {
@@ -69,13 +69,13 @@ export const mockEvents: Event[] = [
       state: 'IL',
       zipCode: '61101',
     },
-    image: '/images/events/youth-retreat.jpg',
+    image: 'https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&q=80',
     imageAlt: 'Youth group at winter retreat',
     speaker: {
       name: 'Youth Pastor Michael Chen',
       title: 'Youth Ministry Director',
       bio: 'Pastor Mike is passionate about guiding the next generation in their faith journey.',
-      image: '/images/team/pastor-mike.jpg',
+      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80',
     },
     organizer: 'Youth Ministry',
     registration: {
@@ -131,7 +131,7 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Fellowship Hall',
     },
-    image: '/images/events/food-drive.jpg',
+    image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&q=80',
     imageAlt: 'Volunteers organizing food donations',
     organizer: 'Outreach Ministry',
     registration: {
@@ -177,7 +177,7 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Room 201',
     },
-    image: '/images/events/womens-bible-study.jpg',
+    image: 'https://images.unsplash.com/photo-1509234607259-91914a6db0ab?w=800&q=80',
     imageAlt: 'Women gathering for Bible study',
     speaker: {
       name: 'Sarah Johnson',
@@ -213,7 +213,7 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Fellowship Hall',
     },
-    image: '/images/events/mens-breakfast.jpg',
+    image: 'https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=800&q=80',
     imageAlt: 'Men gathering for breakfast and prayer',
     organizer: 'Men\'s Ministry',
     registration: {
@@ -255,13 +255,13 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Main Sanctuary',
     },
-    image: '/images/events/revival-conference.jpg',
+    image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&q=80',
     imageAlt: 'Revival conference worship service',
     speaker: {
       name: 'Rev. Dr. James Williams',
       title: 'Evangelist & Author',
       bio: 'Dr. Williams has been in ministry for over 30 years, preaching revival and awakening across the nation.',
-      image: '/images/speakers/dr-williams.jpg',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
     },
     organizer: 'Church Leadership',
     registration: {
@@ -305,7 +305,7 @@ export const mockEvents: Event[] = [
       isVirtual: true,
       virtualLink: 'https://zoom.us/j/123456789',
     },
-    image: '/images/events/virtual-study.jpg',
+    image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800&q=80',
     imageAlt: 'Virtual Bible study on video call',
     speaker: {
       name: 'Pastor David Lee',
@@ -339,7 +339,7 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Main Sanctuary',
     },
-    image: '/images/events/worship-night.jpg',
+    image: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80',
     imageAlt: 'Worship team leading praise',
     organizer: 'Worship Ministry',
     targetAudience: ['All Ages', 'Worship Leaders', 'Musicians'],
@@ -372,7 +372,7 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Main Sanctuary',
     },
-    image: '/images/events/christmas-eve-2025.jpg',
+    image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80',
     imageAlt: 'Candlelight Christmas service',
     speaker: {
       name: 'Pastor John Smith',
@@ -420,7 +420,7 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Fellowship Hall',
     },
-    image: '/images/events/thanksgiving-dinner-2025.jpg',
+    image: 'https://images.unsplash.com/photo-1574895883272-f5f5c6e6f3e4?w=800&q=80',
     imageAlt: 'Community Thanksgiving dinner',
     organizer: 'Outreach Ministry',
     registration: {
@@ -472,7 +472,7 @@ export const mockEvents: Event[] = [
       state: 'IL',
       zipCode: '62701',
     },
-    image: '/images/events/harvest-festival-2025.jpg',
+    image: 'https://images.unsplash.com/photo-1508615263227-e6a57c4e8d37?w=800&q=80',
     imageAlt: 'Fall harvest festival activities',
     organizer: 'Community Outreach',
     registration: {
@@ -528,7 +528,7 @@ export const mockEvents: Event[] = [
       zipCode: '62701',
       room: 'Fellowship Hall',
     },
-    image: '/images/events/back-to-school-2025.jpg',
+    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80',
     imageAlt: 'Children receiving backpacks',
     organizer: 'Children\'s Ministry',
     targetAudience: ['Children', 'Students', 'Families', 'Teachers'],

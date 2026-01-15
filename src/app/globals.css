@@ -289,3 +289,18 @@ html {
 .animate-scaleIn {
   animation: scaleIn 0.3s ease-out forwards;
 }
+
+/* Church Logo Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause animation on hover for better UX */
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}

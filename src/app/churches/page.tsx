@@ -1,4 +1,5 @@
 import ChurchDirectory from '@/components/ChurchDirectory';
+import ChurchLogoMarquee from '@/components/ChurchLogoMarquee';
 import { ChurchData } from '@/components/ChurchCard';
 
 // Friends Connection Churches in the Philippines
@@ -172,6 +173,9 @@ export default function ChurchesPage() {
           </p>
         </div>
       </section>
+
+      {/* Church Logo Marquee */}
+      <ChurchLogoMarquee churches={churches} speed={40} />
 
       {/* Church Directory */}
       <section className="py-16">

@@ -2,6 +2,7 @@
 
 import Hero from '@/components/Hero';
 import ChurchDirectory from '@/components/ChurchDirectory';
+import ChurchLogoMarquee from '@/components/ChurchLogoMarquee';
 import { ChurchData } from '@/components/ChurchCard';
 import { useState } from 'react';
 
@@ -223,6 +224,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Church Logo Marquee */}
+      <ChurchLogoMarquee churches={churches} speed={40} />
 
       {/* Ministry Stats */}
       <section className="py-16 bg-white">

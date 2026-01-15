@@ -1,5 +1,9 @@
 {
-  "/events/[slug]/page": "app/events/[slug]/page.js",
+  "/about/page": "app/about/page.js",
+  "/churches/[slug]/page": "app/churches/[slug]/page.js",
+  "/churches/page": "app/churches/page.js",
   "/events/page": "app/events/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/ministries/page": "app/ministries/page.js",
   "/page": "app/page.js"
 }

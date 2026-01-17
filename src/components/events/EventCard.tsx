@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { MapPin, Calendar, Clock, User, DollarSign, Users } from 'lucide-react';
+import { MapPin, Calendar, Clock, User, Coins, Users } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Event } from '@/types/event';
 import { categoryInfo } from '@/data/events';
@@ -134,9 +134,9 @@ const EventCard = ({ event, className = '', showFullDescription = false }: Event
           {/* Cost */}
           {event.registration && event.registration.cost !== undefined && (
             <div className="flex items-center text-sm text-gray-700">
-              <DollarSign className="w-4 h-4 mr-2 text-blue-600 flex-shrink-0" />
+              <Coins className="w-4 h-4 mr-2 text-blue-600 flex-shrink-0" />
               <span className="font-medium">
-                {event.registration.cost === 0 ? 'Free Event' : `$${event.registration.cost}`}
+                {event.registration.cost === 0 ? 'Free Event' : `₱${event.registration.cost}`}
               </span>
             </div>
           )}

@@ -10,7 +10,7 @@ import {
   Clock,
   MapPin,
   User,
-  DollarSign,
+  Coins,
   Users,
   Phone,
   Mail,
@@ -198,7 +198,7 @@ END:VCALENDAR`;
         offers: {
           '@type': 'Offer',
           price: event.registration.cost,
-          priceCurrency: 'USD',
+          priceCurrency: 'PHP',
           availability: registrationOpen && !eventFull 
             ? 'https://schema.org/InStock' 
             : 'https://schema.org/SoldOut',
@@ -412,12 +412,12 @@ END:VCALENDAR`;
                   {event.registration && event.registration.cost !== undefined && (
                     <div className="flex items-start gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
-                        <DollarSign className="w-6 h-6 text-pink-600" />
+                        <Coins className="w-6 h-6 text-pink-600" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">Cost</h3>
                         <p className="text-2xl font-bold text-gray-900">
-                          {event.registration.cost === 0 ? 'Free' : `$${event.registration.cost}`}
+                          {event.registration.cost === 0 ? 'Free' : `₱${event.registration.cost}`}
                         </p>
                       </div>
                     </div>

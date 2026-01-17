@@ -27,7 +27,7 @@ const ChurchLogoMarquee = ({
           Our Church Network
         </h2>
         <p className="text-center text-gray-600">
-          {churches.length} churches united in faith across the Philippines
+          {churches.length} churches united in faith across the Philippines and US
         </p>
       </div>
 

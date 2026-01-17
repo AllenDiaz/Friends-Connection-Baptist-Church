@@ -70,6 +70,7 @@ const churches: ChurchData[] = [
     description: 'A caring community following the Good Shepherd, providing spiritual guidance and fellowship in Palayan City.',
     image: '/good-shepherd-baptist-mission.jpg',
     pastor: 'Ptr. Isagani (Jim) Dela Cruz',
+    pastorImage: '/pastor-isagani-dela-cruz.jpg',
     address: 'Palayan City',
     phone: 'Contact through Friends Connection',
     email: 'info@friendsconnection.org',
@@ -157,6 +158,18 @@ const churches: ChurchData[] = [
     phone: 'Contact through Friends Connection',
     email: 'info@friendsconnection.org',
     serviceTime: 'Sundays - Contact for service times'
+  },
+  {
+    id: 'moriah-baptist',
+    name: 'Moriah Baptist Church',
+    description: 'A vibrant community of believers dedicated to worship, discipleship, and serving our community with the love of Christ.',
+    image: '/moriah-baptist-church.jpeg',
+    pastor: 'Ptr. Alex Castro',
+    pastorImage: '/pastor-alex-castro.jpeg',
+    address: 'Bocaue Bulacan',
+    phone: 'Contact through Friends Connection',
+    email: 'info@friendsconnection.org',
+    serviceTime: 'Sundays - Contact for service times'
   }
 ];
 
@@ -168,7 +181,7 @@ export default function ChurchesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Friends Connection Churches</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Discover our 13 Baptist churches across the Philippines and USA, united in faith and committed to spreading 
+            Discover our 14 Baptist churches across the Philippines and USA, united in faith and committed to spreading 
             the Gospel throughout Nueva Ecija, Metro Manila, Bulacan, Laguna, Legaspi City, and Florida.
           </p>
         </div>

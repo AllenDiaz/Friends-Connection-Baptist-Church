@@ -216,6 +216,7 @@ const churchData: { [key: string]: ChurchData & {
     fullDescription: 'True to its name, Good Shepherd Baptist Church provides caring pastoral ministry to the people of Palayan City. Under the leadership of Ptr. Isagani (Jim) Dela Cruz, this church embodies the heart of the Good Shepherd, offering spiritual guidance, comfort, and community support to all who seek fellowship.',
     image: '/good-shepherd-baptist-mission.jpg',
     pastor: 'Ptr. Isagani (Jim) Dela Cruz',
+    pastorImage: '/pastor-isagani-dela-cruz.jpg',
     address: 'Palayan City',
     phone: 'Contact through Friends Connection',
     email: 'info@friendsconnection.org',
@@ -462,6 +463,50 @@ const churchData: { [key: string]: ChurchData & {
       'Adult Recovery Groups',
       'Community Hope Outreach'
     ]
+  },
+  'moriah-baptist': {
+    id: 'moriah-baptist',
+    name: 'Moriah Baptist Church',
+    description: 'A vibrant community of believers dedicated to worship, discipleship, and serving our community with the love of Christ.',
+    fullDescription: 'Moriah Baptist Church is a dynamic congregation committed to glorifying God through authentic worship, biblical teaching, and compassionate service. Under the pastoral leadership of Ptr. Alex Castro, this church is dedicated to making disciples who love God, love others, and make a difference in their community. Like Mount Moriah where God provided, this church is a place where God\'s provision and faithfulness are experienced daily.',
+    image: '/moriah-baptist-church.jpeg',
+    pastor: 'Ptr. Alex Castro',
+    pastorImage: '/pastor-alex-castro.jpeg',
+    address: 'Bocaue Bulacan',
+    phone: 'Contact through Friends Connection',
+    email: 'info@friendsconnection.org',
+    serviceTime: 'Sundays - Contact for service times',
+    history: 'Moriah Baptist Church has been built on the foundation of God\'s faithfulness and provision. Named after Mount Moriah, the place where God provided for Abraham, this church embodies the principle that God will always provide for His people. Ptr. Alex Castro leads this congregation with a heart for discipleship and community transformation.',
+    services: [
+      {
+        id: 'sunday-worship',
+        name: 'Sunday Worship Service',
+        time: 'Contact for times',
+        description: 'Spirit-filled worship and biblical preaching',
+        duration: 'Contact church',
+        ageGroup: 'All Ages'
+      },
+      {
+        id: 'bible-study',
+        name: 'Midweek Bible Study',
+        time: 'Contact for times',
+        description: 'Deep dive into God\'s Word',
+        duration: 'Contact church',
+        ageGroup: 'All Ages'
+      }
+    ],
+    ministries: [
+      'Children\'s Ministry',
+      'Youth Ministry',
+      'Worship Ministry',
+      'Adult Bible Study',
+      'Women\'s Fellowship',
+      'Men\'s Ministry',
+      'Community Outreach',
+      'Prayer Ministry',
+      'Discipleship Training',
+      'Mission & Evangelism'
+    ]
   }
 };
 
@@ -559,6 +604,7 @@ export async function generateStaticParams() {
     { slug: 'amazing-grace-san-pedro' },
     { slug: 'dakilang-biyaya-bocaue' },
     { slug: 'first-pilgrims-legaspi' },
-    { slug: 'new-hope-mambangnan' }
+    { slug: 'new-hope-mambangnan' },
+    { slug: 'moriah-baptist' }
   ];
 }

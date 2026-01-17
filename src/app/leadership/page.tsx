@@ -96,6 +96,7 @@ const leaders: LeaderData[] = [
     name: 'Ptr. Isagani (Jim) Dela Cruz',
     position: 'Pastor, Good Shepherd Baptist Church',
     bio: 'Ptr. Isagani (Jim) Dela Cruz provides caring pastoral ministry to the people of Palayan City, embodying the heart of the Good Shepherd through spiritual guidance and community support.',
+    image: '/pastor-isagani-dela-cruz.jpg',
     church: 'Good Shepherd Baptist Church'
   },
   {
@@ -104,6 +105,14 @@ const leaders: LeaderData[] = [
     position: 'Pastor, Shiloh Redeemer Baptist Church Inc.',
     bio: 'Ptr. Rolando de Guzman leads Shiloh Redeemer Baptist Church Inc. in Taguig City, bringing the message of redemption and peace to the urban community of Metro Manila.',
     church: 'Shiloh Redeemer Baptist Church Inc.'
+  },
+  {
+    id: 'pastor-alex',
+    name: 'Ptr. Alex Castro',
+    position: 'Pastor, Moriah Baptist Church',
+    bio: 'Ptr. Alex Castro leads Moriah Baptist Church with a heart for discipleship and community transformation. His ministry focuses on helping believers grow in their faith and make a lasting impact in their communities through the love of Christ.',
+    image: '/pastor-alex-castro.jpeg',
+    church: 'Moriah Baptist Church'
   }
 ];
 
@@ -127,7 +136,7 @@ export default function LeadershipPage() {
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">Church Pastors</h2>
             <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto">
-              Meet the dedicated pastors who lead our 13 Baptist churches across the Philippines and USA, 
+              Meet the dedicated pastors who lead our 14 Baptist churches across the Philippines and USA, 
               serving their local congregations while working together to advance the kingdom of God throughout our communities.
             </p>
           </div>

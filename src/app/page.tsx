@@ -74,6 +74,7 @@ const churches: ChurchData[] = [
     description: 'A caring community following the Good Shepherd, providing spiritual guidance and fellowship in Palayan City.',
     image: '/good-shepherd-baptist-mission.jpg',
     pastor: 'Ptr. Isagani (Jim) Dela Cruz',
+    pastorImage: '/pastor-isagani-dela-cruz.jpg',
     address: 'Palayan City',
     phone: 'Contact through Friends Connection',
     email: 'info@friendsconnection.org',
@@ -158,6 +159,18 @@ const churches: ChurchData[] = [
     pastor: 'Ptr. Prince Matthew Barquilla',
     pastorImage: '/pastor-prince-barquilla.jpg',
     address: 'Mambangnan San Leonardo Nueva Ecija',
+    phone: 'Contact through Friends Connection',
+    email: 'info@friendsconnection.org',
+    serviceTime: 'Sundays - Contact for service times'
+  },
+  {
+    id: 'moriah-baptist',
+    name: 'Moriah Baptist Church',
+    description: 'A vibrant community of believers dedicated to worship, discipleship, and serving our community with the love of Christ.',
+    image: '/moriah-baptist-church.jpeg',
+    pastor: 'Ptr. Alex Castro',
+    pastorImage: '/pastor-alex-castro.jpeg',
+    address: 'Bocaue Bulacan',
     phone: 'Contact through Friends Connection',
     email: 'info@friendsconnection.org',
     serviceTime: 'Sundays - Contact for service times'

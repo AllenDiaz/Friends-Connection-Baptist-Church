@@ -43,11 +43,13 @@ const MinistryCard = ({ ministry, className = '' }: MinistryCardProps) => {
         <p className="text-gray-600 mb-4 line-clamp-3">{ministry.description}</p>
         
         {/* Leader */}
-        <div className="mb-4">
-          <p className="text-sm text-gray-700">
-            <span className="font-medium">Leader:</span> {ministry.leader}
-          </p>
-        </div>
+        {ministry.leader && (
+          <div className="mb-4">
+            <p className="text-sm text-gray-700">
+              <span className="font-medium">Leader:</span> {ministry.leader}
+            </p>
+          </div>
+        )}
         
         {/* Details */}
         <div className="space-y-2 mb-4">
@@ -65,31 +67,35 @@ const MinistryCard = ({ ministry, className = '' }: MinistryCardProps) => {
             </div>
           )}
           
-          <div className="flex items-center text-sm text-gray-600">
-            <Users className="w-4 h-4 mr-2 text-blue-500" />
-            <span>{ministry.participatingChurches.length} churches participating</span>
-          </div>
+          {ministry.participatingChurches && ministry.participatingChurches.length > 0 && (
+            <div className="flex items-center text-sm text-gray-600">
+              <Users className="w-4 h-4 mr-2 text-blue-500" />
+              <span>{ministry.participatingChurches.length} churches participating</span>
+            </div>
+          )}
         </div>
         
         {/* Participating Churches */}
-        <div className="mb-6">
-          <p className="text-sm font-medium text-gray-700 mb-2">Participating Churches:</p>
-          <div className="flex flex-wrap gap-1">
-            {ministry.participatingChurches.slice(0, 3).map((church, index) => (
-              <span 
-                key={index}
-                className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded"
-              >
-                {church}
-              </span>
-            ))}
-            {ministry.participatingChurches.length > 3 && (
-              <span className="inline-block bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">
-                +{ministry.participatingChurches.length - 3} more
-              </span>
-            )}
+        {ministry.participatingChurches && ministry.participatingChurches.length > 0 && (
+          <div className="mb-6">
+            <p className="text-sm font-medium text-gray-700 mb-2">Participating Churches:</p>
+            <div className="flex flex-wrap gap-1">
+              {ministry.participatingChurches.slice(0, 3).map((church, index) => (
+                <span 
+                  key={index}
+                  className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded"
+                >
+                  {church}
+                </span>
+              ))}
+              {ministry.participatingChurches.length > 3 && (
+                <span className="inline-block bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">
+                  +{ministry.participatingChurches.length - 3} more
+                </span>
+              )}
+            </div>
           </div>
-        </div>
+        )}
         
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-3">

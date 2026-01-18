@@ -316,54 +316,43 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Ministry Programs</h2>
-            <p className="text-lg text-gray-600">Serving Filipino communities through Christ-centered ministries</p>
+            <p className="text-lg text-gray-600">Serving communities through Christ-centered ministries</p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { 
-                title: "Youth & Young Adults", 
-                desc: "Discipling the next generation of Filipino Christian leaders",
-                churches: "13 churches",
-                icon: "🌟" 
+                title: "Bible Basketball", 
+                desc: "Combining athletic excellence with spiritual growth through faith-based basketball programs",
+                image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80"
               },
               { 
-                title: "Children's Ministry", 
-                desc: "Teaching children God's Word in their communities",
-                churches: "13 churches",
-                icon: "👶" 
+                title: "Indigenous Evangelism", 
+                desc: "Reaching indigenous communities with culturally sensitive ministry and Gospel support",
+                image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80"
               },
               { 
-                title: "Community Evangelism", 
-                desc: "Sharing the Gospel throughout the Philippines & USA",
-                churches: "13 churches",
-                icon: "❤️" 
+                title: "Bible School", 
+                desc: "Equipping believers with biblical knowledge through systematic theology and ministry training",
+                image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
               },
               { 
-                title: "Women's Fellowship", 
-                desc: "Empowering women through Bible study and prayer",
-                churches: "13 churches",
-                icon: "👩‍🤝‍👩" 
-              },
-              { 
-                title: "Men's Ministry", 
-                desc: "Building strong Christian men and fathers",
-                churches: "13 churches",
-                icon: "👨‍👦" 
-              },
-              { 
-                title: "Pastoral Training", 
-                desc: "Equipping pastors for effective ministry leadership",
-                churches: "Network-wide",
-                icon: "🙏" 
+                title: "Medical Mission", 
+                desc: "Providing healthcare services and medical support combined with compassionate spiritual care",
+                image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80"
               }
             ].map((ministry, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
-                <div className="text-3xl mb-4">{ministry.icon}</div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{ministry.title}</h3>
-                <p className="text-gray-600 text-sm mb-3">{ministry.desc}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-blue-600 font-medium">{ministry.churches}</span>
+              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div className="relative h-48 bg-gray-200">
+                  <img
+                    src={ministry.image}
+                    alt={ministry.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{ministry.title}</h3>
+                  <p className="text-gray-600 text-sm mb-4">{ministry.desc}</p>
                   <button className="text-blue-600 hover:text-blue-800 text-sm font-medium">
                     Learn More →
                   </button>

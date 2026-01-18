@@ -4,60 +4,48 @@ import Link from 'next/link';
 
 const ministries: MinistryData[] = [
   {
-    id: 'youth-ministry',
-    name: 'Youth & Young Adults Ministry',
-    description: 'Empowering the next generation through dynamic programs that build faith, character, and leadership across all our member churches.',
-    leader: 'Pastor Maria Rodriguez',
-    schedule: 'Fridays 6:30 PM, Sundays 10:00 AM',
+    id: 'bible-basketball',
+    name: 'Bible Basketball',
+    description: 'Combining athletic excellence with spiritual growth, our Bible Basketball ministry uses sports to reach youth and build character through faith-based basketball programs and tournaments.',
+    image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80',
+    leader: 'Coach Michael Anderson',
+    schedule: 'Tuesdays & Thursdays 6:00 PM, Saturday tournaments',
+    location: 'Various church gymnasiums',
+    participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Faith Community', 'Grace Covenant', 'New Hope Fellowship'],
+    contactEmail: 'basketball@friendsconnection.org'
+  },
+  {
+    id: 'indigenous-evangelism',
+    name: 'Indigenous Evangelism',
+    description: 'Reaching out to indigenous communities with the Gospel, providing culturally sensitive ministry, and supporting local missionaries working in remote areas.',
+    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80',
+    leader: 'Missionary Dr. James Martinez',
+    schedule: 'Monthly mission trips, Weekly prayer meetings Wednesdays 7:00 PM',
+    location: 'Mission field and home churches',
+    participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Faith Community', 'New Hope Fellowship'],
+    contactEmail: 'indigenous@friendsconnection.org'
+  },
+  {
+    id: 'bible-school',
+    name: 'Bible School',
+    description: 'Equipping believers with solid biblical knowledge through systematic theology, biblical studies, and practical ministry training for all ages and spiritual maturity levels.',
+    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80',
+    leader: 'Dr. Rebecca Thompson',
+    schedule: 'Sundays 9:00 AM, Wednesday evening classes 7:00 PM',
     location: 'Rotating between churches',
     participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Faith Community', 'Grace Covenant', 'New Hope Fellowship'],
-    contactEmail: 'youth@friendsconnection.org'
+    contactEmail: 'bibleschool@friendsconnection.org'
   },
   {
-    id: 'childrens-ministry',
-    name: 'Children\'s Ministry Network',
-    description: 'Nurturing young hearts with biblical foundations through coordinated programs and shared resources across our churches.',
-    leader: 'Minister Sarah Johnson',
-    schedule: 'Sundays during services, Wednesdays 6:00 PM',
-    participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Faith Community', 'Grace Covenant', 'New Hope Fellowship'],
-    contactEmail: 'children@friendsconnection.org'
-  },
-  {
-    id: 'community-outreach',
-    name: 'Community Outreach Initiative',
-    description: 'United in service to our community through food banks, homeless shelter support, and disaster relief efforts.',
-    leader: 'Deacon Robert Wilson',
-    schedule: 'Saturdays 9:00 AM, Special events monthly',
-    location: 'Various community locations',
-    participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Faith Community', 'Grace Covenant', 'New Hope Fellowship'],
-    contactEmail: 'outreach@friendsconnection.org'
-  },
-  {
-    id: 'womens-fellowship',
-    name: 'Women\'s Fellowship Network',
-    description: 'Building sisterhood across our churches through Bible study, prayer, and mutual support for women of all ages.',
-    leader: 'Mrs. Patricia Davis',
-    schedule: 'Second Saturday each month, 10:00 AM',
-    participatingChurches: ['Living Water Baptist', 'Faith Community', 'Grace Covenant', 'New Hope Fellowship'],
-    contactEmail: 'women@friendsconnection.org'
-  },
-  {
-    id: 'mens-ministry',
-    name: 'Men\'s Ministry Brotherhood',
-    description: 'Strengthening fathers, husbands, and leaders through fellowship, accountability, and service projects.',
-    leader: 'Mr. David Thompson',
-    schedule: 'First Saturday each month, 8:00 AM',
-    participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Grace Covenant'],
-    contactEmail: 'men@friendsconnection.org'
-  },
-  {
-    id: 'senior-ministry',
-    name: 'Senior Saints Ministry',
-    description: 'Honoring the wisdom and continued service of our senior members through fellowship and ministry opportunities.',
-    leader: 'Pastor Emeritus Dr. Charles Brown',
-    schedule: 'Third Thursday each month, 2:00 PM',
-    participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Faith Community', 'New Hope Fellowship'],
-    contactEmail: 'seniors@friendsconnection.org'
+    id: 'medical-mission',
+    name: 'Medical Mission',
+    description: 'Providing healthcare services and medical support to underserved communities, combining professional medical care with compassionate spiritual ministry and health education.',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+    leader: 'Dr. Sarah Williams, MD',
+    schedule: 'Monthly medical outreach, Quarterly international trips',
+    location: 'Local community centers and international mission fields',
+    participatingChurches: ['Living Water Baptist', 'Solid Rocks Baptist', 'Faith Community', 'Grace Covenant'],
+    contactEmail: 'medical@friendsconnection.org'
   }
 ];
 
@@ -79,7 +67,7 @@ export default function Ministries() {
       {/* Ministry Programs Grid */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {ministries.map((ministry) => (
               <MinistryCard key={ministry.id} ministry={ministry} />
             ))}

@@ -65,6 +65,71 @@ export default function About() {
           description: 'Stewarding financial resources with integrity to support Philippine churches and ministry initiatives.'
         },
       ]
+    },
+    {
+      title: 'FCfJCM Ministries Coordinators',
+      officers: [
+        { 
+          name: 'Rev. Wilfredo Jimenez', 
+          position: 'Bulacan Coordinator & Bible School Coordinator',
+          image: '/ministries-coordinators/mc-pastor-wilfredo-jimenez.jpg',
+          description: 'Leading church ministries in Bulacan and coordinating Bible school programs to equip believers for effective ministry.'
+        },
+        { 
+          name: 'Rev. Roberto Pascual', 
+          position: 'Nueva Ecija Coordinator',
+          image: '/ministries-coordinators/mc-pastor-robert-pascual.png',
+          description: 'Overseeing church planting and ministry development throughout Nueva Ecija province with pastoral care.'
+        },
+        { 
+          name: 'Pastor Jayson Nablo', 
+          position: 'Youth and Camp Ministry Coordinator',
+          image: '/ministries-coordinators/mc-pastor-jayson-nablo.jpg',
+          description: 'Empowering the next generation through dynamic youth programs and impactful camp ministries.'
+        },
+        { 
+          name: 'Bro. Andrew Aquino', 
+          position: 'Youth and Camp Ministry Coordinator',
+          image: '/ministries-coordinators/mc-andrew-aquino.jpeg',
+          description: 'Supporting youth ministry and coordinating camp activities that inspire young people to grow in their faith.'
+        },
+        { 
+          name: 'Rev. Rolando De Guzman', 
+          position: 'Church Planting Coordinator',
+          image: '/ministries-coordinators/mc-rev-rolando-de-guzman.jpg',
+          description: 'Strategically planting new churches and establishing Gospel-centered communities across the Philippines.'
+        },
+        { 
+          name: "Ma'am Andrea Soliman", 
+          position: 'Women Fellowship & Ministry Coordinator',
+          image: '/ministries-coordinators/mc-annie-soliman.jpeg',
+          description: 'Nurturing women through fellowship, discipleship, and ministry opportunities that build strong faith communities.'
+        },
+        { 
+          name: "Ma'am Myrna Pascual", 
+          position: 'Women Fellowship & Ministry Coordinator',
+          image: '/ministries-coordinators/mc-myrna-pascual.jpeg',
+          description: 'Leading women\'s ministry initiatives and fostering spiritual growth through fellowship and discipleship programs.'
+        },
+        { 
+          name: 'Rev. Isagani Dela Cruz', 
+          position: 'Men Fellowship & Ministry Coordinator',
+          image: '/ministries-coordinators/mc-rev-isagani-dela-cruz.jpg',
+          description: 'Equipping men to be spiritual leaders in their families, churches, and communities through fellowship and ministry.'
+        },
+        { 
+          name: 'Bro. Alvin Soliman', 
+          position: 'Men Fellowship & Ministry Coordinator',
+          image: '/ministries-coordinators/mc-alvin-soliman.jpeg',
+          description: 'Supporting men\'s ministry and encouraging brothers in Christ to grow in their faith and leadership.'
+        },
+        { 
+          name: 'Pastor Julius Corpus & Cherry Ann Corpus', 
+          position: 'Children Ministry Coordinators',
+          image: '/ministries-coordinators/mc-corpus.jpeg',
+          description: 'A dedicated husband and wife team nurturing young hearts and teaching children the love of Christ through creative ministry.'
+        },
+      ]
     }
   ];
   return (

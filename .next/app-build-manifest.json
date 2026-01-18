@@ -161,6 +161,27 @@
       "static/chunks/ce802_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a0ff3932._.js",
       "static/chunks/5a167_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a01cc351._.js"
     ],
+    "/ministries/[slug]/page": [
+      "static/chunks/7a226_next_dist_4e94315b._.js",
+      "static/chunks/078f4_Friends-Connection-Baptist-Church_src_app_favicon_ico_mjs_9428075d._.js",
+      "static/chunks/[root-of-the-server]__debb6924._.css",
+      "static/chunks/a43ba_Friends-Connection-Project_Friends-Connection-Baptist-Church_src_a3b8d766._.js",
+      "static/chunks/7a226_9cad54ba._.js",
+      "static/chunks/078f4_Friends-Connection-Baptist-Church_src_app_layout_tsx_041a05b0._.js",
+      "static/chunks/7a226_next_dist_client_components_builtin_global-error_8a394380.js",
+      "static/chunks/7a226_4be2aa02._.js",
+      "static/chunks/a43ba_Friends-Connection-Project_Friends-Connection-Baptist-Church_src_685fc8d9._.js",
+      "static/chunks/078f4_Friends-Connection-Baptist-Church_src_app_ministries_[slug]_page_tsx_8a394380._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_7a626aef._.js",
+      "static/chunks/7a226_next_dist_compiled_react-dom_d338be5c._.js",
+      "static/chunks/7a226_next_dist_compiled_next-devtools_index_7083effa.js",
+      "static/chunks/7a226_next_dist_compiled_4e4b1b3c._.js",
+      "static/chunks/7a226_next_dist_client_84f039f6._.js",
+      "static/chunks/7a226_next_dist_80b90f15._.js",
+      "static/chunks/7a226_@swc_helpers_cjs_5061f958._.js",
+      "static/chunks/ce802_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a0ff3932._.js",
+      "static/chunks/5a167_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a01cc351._.js"
+    ],
     "/ministries/page": [
       "static/chunks/7a226_next_dist_4e94315b._.js",
       "static/chunks/078f4_Friends-Connection-Baptist-Church_src_app_favicon_ico_mjs_9428075d._.js",

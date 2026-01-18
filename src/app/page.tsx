@@ -5,6 +5,7 @@ import ChurchDirectory from '@/components/ChurchDirectory';
 import ChurchLogoMarquee from '@/components/ChurchLogoMarquee';
 import { ChurchData } from '@/components/ChurchCard';
 import { useState } from 'react';
+import Link from 'next/link';
 
 // Friends Connection Churches in the Philippines
 const churches: ChurchData[] = [
@@ -322,27 +323,35 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { 
+                id: "bible-basketball",
                 title: "Bible Basketball", 
                 desc: "Combining athletic excellence with spiritual growth through faith-based basketball programs",
                 image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80"
               },
               { 
+                id: "indigenous-evangelism",
                 title: "Indigenous Evangelism", 
                 desc: "Reaching indigenous communities with culturally sensitive ministry and Gospel support",
                 image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80"
               },
               { 
+                id: "bible-school",
                 title: "Bible School", 
                 desc: "Equipping believers with biblical knowledge through systematic theology and ministry training",
                 image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
               },
               { 
+                id: "medical-mission",
                 title: "Medical Mission", 
                 desc: "Providing healthcare services and medical support combined with compassionate spiritual care",
                 image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80"
               }
             ].map((ministry, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <Link 
+                key={index} 
+                href={`/ministries/${ministry.id}`}
+                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              >
                 <div className="relative h-48 bg-gray-200">
                   <img
                     src={ministry.image}
@@ -353,11 +362,11 @@ export default function Home() {
                 <div className="p-6">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{ministry.title}</h3>
                   <p className="text-gray-600 text-sm mb-4">{ministry.desc}</p>
-                  <button className="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                  <span className="text-blue-600 hover:text-blue-800 text-sm font-medium">
                     Learn More →
-                  </button>
+                  </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

@@ -10,10 +10,10 @@ export interface MinistryData {
   name: string;
   description: string;
   image?: string;
-  leader: string;
+  leader?: string;
   schedule?: string;
   location?: string;
-  participatingChurches: string[];
+  participatingChurches?: string[];
   contactEmail?: string;
 }
 

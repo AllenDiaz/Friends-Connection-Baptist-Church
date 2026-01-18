@@ -1,5 +1,6 @@
 import LeadershipCard from '@/components/LeadershipCard';
 import { LeaderData } from '@/components/LeadershipCard';
+import LeadershipTeam from '@/components/LeadershipTeam';
 import Link from 'next/link';
 
 const leaders: LeaderData[] = [
@@ -117,6 +118,138 @@ const leaders: LeaderData[] = [
   }
 ];
 
+const leadershipGroups = [
+  {
+    title: 'Friends Connection for Jesus Christ Ministries International - Officers',
+    officers: [
+      { 
+        name: 'Rev. & Mrs. Alfredo Eborda Jr.', 
+        position: 'Founder/President',
+        image: '/international-leaders/international-leader-alfredo-eborda.jpeg',
+        description: 'Founding leaders guiding the international vision and strategic direction of Friends Connection ministry worldwide.'
+      },
+      { 
+        name: 'Rev. Timothy Lee Young', 
+        position: 'International Coordinator',
+        image: '/international-leaders/international-leader-timothy-young.jpeg',
+        description: 'Coordinating global ministry efforts and fostering partnerships across international churches and missions.'
+      },
+      { 
+        name: 'Engr. Pem Nelmida', 
+        position: 'Financial Officer',
+        image: '/international-leaders/international-leader-pem-nelmida.jpeg',
+        description: 'Managing international finances with integrity and ensuring responsible stewardship of ministry resources.'
+      },
+      { 
+        name: 'Mrs. Courteney Young', 
+        position: 'FcfJCM - Secretary',
+        image: '/international-leaders/international-leader-courteney-young.jpeg',
+        description: 'Maintaining organizational records and facilitating effective communication within the international ministry.'
+      },
+    ]
+  },
+  {
+    title: 'Friends Connection for Jesus Christ Ministries Philippines - Officers',
+    officers: [
+      { 
+        name: 'Rev. & Mrs. Alfredo Eborda Jr.', 
+        position: 'Founder/President',
+        image: '/philippine-leaders/philippine-leader-alfredo-eborda.jpeg',
+        description: 'Founding leaders with a heart for Philippine ministries, guiding local churches and pastors with wisdom and dedication.'
+      },
+      { 
+        name: 'Rev. Timothy Lee Young', 
+        position: 'International Coordinator',
+        image: '/philippine-leaders/philippine-leader-timothy-young.jpeg',
+        description: 'Bridging international partnerships and coordinating ministry efforts between Philippine and global church networks.'
+      },
+      { 
+        name: 'Ptr. Rolando De Guzman', 
+        position: 'National Coordinator',
+        image: '/philippine-leaders/philippine-leader-rolando-de-guzman.jpg',
+        description: 'Overseeing national operations and coordinating church activities throughout the Philippines with pastoral care.'
+      },
+      { 
+        name: 'Ms. Lilia Dela Cruz', 
+        position: 'Secretary',
+        image: '/philippine-leaders/philippine-leader-lilia-delacruz.jpeg',
+        description: 'Managing administrative duties and maintaining clear communication across all Philippine ministry operations.'
+      },
+      { 
+        name: 'Mrs. Myrna Pascual', 
+        position: 'Treasurer',
+        image: '/philippine-leaders/philippine-leader-myrna-pascual.jpeg',
+        description: 'Stewarding financial resources with integrity to support Philippine churches and ministry initiatives.'
+      },
+    ]
+  },
+  {
+    title: 'FCfJCM Ministries Coordinators',
+    officers: [
+      { 
+        name: 'Rev. Wilfredo Jimenez', 
+        position: 'Bulacan Coordinator & Bible School Coordinator',
+        image: '/ministries-coordinators/mc-pastor-wilfredo-jimenez.jpg',
+        description: 'Leading church ministries in Bulacan and coordinating Bible school programs to equip believers for effective ministry.'
+      },
+      { 
+        name: 'Rev. Roberto Pascual', 
+        position: 'Nueva Ecija Coordinator',
+        image: '/ministries-coordinators/mc-pastor-robert-pascual.png',
+        description: 'Overseeing church planting and ministry development throughout Nueva Ecija province with pastoral care.'
+      },
+      { 
+        name: 'Pastor Jayson Nablo', 
+        position: 'Youth and Camp Ministry Coordinator',
+        image: '/ministries-coordinators/mc-pastor-jayson-nablo.jpg',
+        description: 'Empowering the next generation through dynamic youth programs and impactful camp ministries.'
+      },
+      { 
+        name: 'Bro. Andrew Aquino', 
+        position: 'Youth and Camp Ministry Coordinator',
+        image: '/ministries-coordinators/mc-andrew-aquino.jpeg',
+        description: 'Supporting youth ministry and coordinating camp activities that inspire young people to grow in their faith.'
+      },
+      { 
+        name: 'Rev. Rolando De Guzman', 
+        position: 'Church Planting Coordinator',
+        image: '/ministries-coordinators/mc-rev-rolando-de-guzman.jpg',
+        description: 'Strategically planting new churches and establishing Gospel-centered communities across the Philippines.'
+      },
+      { 
+        name: "Ma'am Andrea Soliman", 
+        position: 'Women Fellowship & Ministry Coordinator',
+        image: '/ministries-coordinators/mc-annie-soliman.jpeg',
+        description: 'Nurturing women through fellowship, discipleship, and ministry opportunities that build strong faith communities.'
+      },
+      { 
+        name: "Ma'am Myrna Pascual", 
+        position: 'Women Fellowship & Ministry Coordinator',
+        image: '/ministries-coordinators/mc-myrna-pascual.jpeg',
+        description: 'Leading women\'s ministry initiatives and fostering spiritual growth through fellowship and discipleship programs.'
+      },
+      { 
+        name: 'Rev. Isagani Dela Cruz', 
+        position: 'Men Fellowship & Ministry Coordinator',
+        image: '/ministries-coordinators/mc-rev-isagani-dela-cruz.jpg',
+        description: 'Equipping men to be spiritual leaders in their families, churches, and communities through fellowship and ministry.'
+      },
+      { 
+        name: 'Bro. Alvin Soliman', 
+        position: 'Men Fellowship & Ministry Coordinator',
+        image: '/ministries-coordinators/mc-alvin-soliman.jpeg',
+        description: 'Supporting men\'s ministry and encouraging brothers in Christ to grow in their faith and leadership.'
+      },
+      { 
+        name: 'Pastor Julius Corpus & Cherry Ann Corpus', 
+        position: 'Children Ministry Coordinators',
+        image: '/ministries-coordinators/mc-corpus.jpeg',
+        description: 'A dedicated husband and wife team nurturing young hearts and teaching children the love of Christ through creative ministry.'
+      },
+    ]
+  }
+];
+
 export default function LeadershipPage() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -131,8 +264,11 @@ export default function LeadershipPage() {
         </div>
       </section>
 
+      {/* Leadership Team Section */}
+      <LeadershipTeam groups={leadershipGroups} />
+
       {/* Ministry Leadership */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">Church Pastors</h2>

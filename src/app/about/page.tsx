@@ -1,4 +1,78 @@
+import LeadershipTeam from '@/components/LeadershipTeam';
+
 export default function About() {
+  const leadershipGroups = [
+    {
+      title: 'Friends Connection for Jesus Christ Ministries International - Officers',
+      officers: [
+        { 
+          name: 'Ptr. Robert (Tim) Young', 
+          position: 'President',
+          image: '/pastor-robert-young.jpg',
+          description: 'Leading our international ministry with biblical teaching and global vision for reaching diverse communities.'
+        },
+        { 
+          name: 'Rev. Alfredo (Fred) Eborda', 
+          position: 'Vice President',
+          image: '/living-water-baptist-church-pastor.jpg',
+          description: 'Supporting our mission through spiritual guidance and dedicated service to missionaries worldwide.'
+        },
+        { 
+          name: 'Ptr. Roberto Pascual', 
+          position: 'Secretary',
+          image: '/pastor-robert-pascual.png',
+          description: 'Maintaining organizational excellence and clear communication across our ministry network.'
+        },
+        { 
+          name: 'Ptr. Rayner Osuna', 
+          position: 'Treasurer',
+          image: '/pastor-rayner-osuna.jpg',
+          description: 'Managing resources faithfully to support our missionaries and ministry projects with integrity.'
+        },
+        { 
+          name: 'Ptr. Jayson Nablo', 
+          position: 'Auditor',
+          image: '/pastor-jayson-nablo.jpg',
+          description: 'Ensuring financial accountability and transparency in all aspects of ministry operations.'
+        },
+      ]
+    },
+    {
+      title: 'Friends Connection for Jesus Christ Ministries Philippines - Officers',
+      officers: [
+        { 
+          name: 'Rev. Alfredo (Fred) Eborda', 
+          position: 'President',
+          image: '/living-water-baptist-church-pastor.jpg',
+          description: 'Leading Philippine operations with vision and commitment to strengthening local churches.'
+        },
+        { 
+          name: 'Ptr. Roberto Pascual', 
+          position: 'Vice President',
+          image: '/pastor-robert-pascual.png',
+          description: 'Supporting church growth and pastoral development throughout the Philippines.'
+        },
+        { 
+          name: 'Ptr. Wilfredo (Jun) Jimenez', 
+          position: 'Secretary',
+          image: '/pastor-wilfredo-jimenez.jpg',
+          description: 'Coordinating ministry activities and maintaining effective communication among churches.'
+        },
+        { 
+          name: 'Ptr. Carlito Gaña', 
+          position: 'Treasurer',
+          image: '/pastor-carlito-gana.jpg',
+          description: 'Stewarding financial resources to empower local ministries and community outreach.'
+        },
+        { 
+          name: 'Ptr. Felix Agustin', 
+          position: 'Auditor',
+          image: '/pastor-felix-agustin.jpg',
+          description: 'Ensuring fiscal responsibility and proper stewardship of ministry funds.'
+        },
+      ]
+    }
+  ];
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
@@ -124,67 +198,7 @@ export default function About() {
       </section>
 
       {/* Leadership Team */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Leadership Team</h2>
-            <p className="text-lg text-gray-600">Committed to serving and guiding our church family</p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center">
-                <img 
-                  src="/pastor-robert-young.jpg" 
-                  alt="Pastor Robert Young"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Ptr. Robert (Tim) Young</h3>
-              <p className="text-blue-600 mb-2">Pastor</p>
-              <p className="text-gray-600 text-sm mb-2 font-medium">International Baptist Church of Pinellas INC</p>
-              <p className="text-gray-600 text-sm">
-                Ptr. Robert Young serves as the pastor of International Baptist Church of Pinellas INC in Florida, 
-                bringing biblical teaching and Christian fellowship to the diverse international community of Pinellas Park.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center">
-                <img 
-                  src="/living-water-baptist-church-pastor.jpg" 
-                  alt="Rev. Alfredo Eborda"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Rev. Alfredo (Fred) Eborda</h3>
-              <p className="text-purple-600 mb-2">Pastor</p>
-              <p className="text-gray-600 text-sm mb-2 font-medium">Living Water Baptist Church of Nueva Ecija</p>
-              <p className="text-gray-600 text-sm">
-                Rev. Alfredo Eborda leads Living Water Baptist Church with dedication and love, bringing spiritual 
-                nourishment through the living water of Christ to the community of Nieves, San Leonardo.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gradient-to-br from-green-400 to-green-600 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center">
-                <img 
-                  src="/pastor-robert-pascual.png" 
-                  alt="Pastor Roberto Pascual"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Ptr. Roberto Pascual</h3>
-              <p className="text-green-600 mb-2">Pastor</p>
-              <p className="text-gray-600 text-sm mb-2 font-medium">Friendship Gospel Bible Baptist Church</p>
-              <p className="text-gray-600 text-sm">
-                As pastor of one of the founding churches of Friends Connection, Ptr. Roberto Pascual leads 
-                Friendship Gospel Bible Baptist Church in Tabuating with faithful biblical teaching and community fellowship.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <LeadershipTeam groups={leadershipGroups} />
 
       {/* What We Believe */}
       <section className="py-16 bg-blue-600 text-white">

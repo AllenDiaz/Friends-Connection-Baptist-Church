@@ -101,9 +101,10 @@ const leaders: LeaderData[] = [
   },
   {
     id: 'rolando-de-guzman',
-    name: 'Ptr. Rolando de Guzman',
+    name: 'Ptr. Rolly de Guzman',
     position: 'Pastor, Shiloh Redeemer Baptist Church Inc.',
-    bio: 'Ptr. Rolando de Guzman leads Shiloh Redeemer Baptist Church Inc. in Taguig City, bringing the message of redemption and peace to the urban community of Metro Manila.',
+    bio: 'Ptr. Rolly de Guzman leads Shiloh Redeemer Baptist Church Inc. in Taguig City, bringing the message of redemption and peace to the urban community of Metro Manila.',
+    image: '/pastor-rolly-de-guzman.jpg',
     church: 'Shiloh Redeemer Baptist Church Inc.'
   },
   {

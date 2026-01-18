@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/churches/international-baptist-pinellas":{},"/churches/living-water-baptist":{},"/churches/friendship-gospel-tabuating":{},"/churches/friendship-gospel-bongabon":{},"/churches/friendship-gospel-gabaldon":{},"/churches/good-shepherd-palayan":{},"/churches/shiloh-redeemer-taguig":{},"/churches/born-again-quezon-city":{},"/churches/glorious-grace-bocaue":{},"/churches/amazing-grace-san-pedro":{},"/churches/dakilang-biyaya-bocaue":{},"/churches/first-pilgrims-legaspi":{},"/churches/new-hope-mambangnan":{},"/churches/moriah-baptist":{}},"dynamicRoutes":{"/churches/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/churches/[slug]","routeRegex":"^\\/churches\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"520d42e01d6f5628ad138b2f44ca6cdb","previewModeSigningKey":"e0bf5e2805c8b4d7bd06fbcddfd81aaced724a8cddcdc2821af5530db19fe3a0","previewModeEncryptionKey":"e12f449d9d03d4344c97f09c457b5e84862f2b43db097f89c52972a4f3e57ba6"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "19b48c6aa01081bb62bee57ef54f93b9",
+    "previewModeSigningKey": "79f7a316244bb847759c4789567f98760d681c1dc04926274eabec184b6d761a",
+    "previewModeEncryptionKey": "cd05d58faf4db19b058b544aa3069b2405cc4df9d43e6db75732f2e2e948ede4"
+  }
+}

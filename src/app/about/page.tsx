@@ -6,34 +6,28 @@ export default function About() {
       title: 'Friends Connection for Jesus Christ Ministries International - Officers',
       officers: [
         { 
-          name: 'Ptr. Robert (Tim) Young', 
-          position: 'President',
-          image: '/pastor-robert-young.jpg',
-          description: 'Leading our international ministry with biblical teaching and global vision for reaching diverse communities.'
+          name: 'Rev. & Mrs. Alfredo Eborda Jr.', 
+          position: 'Founder/President',
+          image: '/international-leaders/international-leader-alfredo-eborda.jpeg',
+          description: 'Founding leaders guiding the international vision and strategic direction of Friends Connection ministry worldwide.'
         },
         { 
-          name: 'Rev. Alfredo (Fred) Eborda', 
-          position: 'Vice President',
-          image: '/living-water-baptist-church-pastor.jpg',
-          description: 'Supporting our mission through spiritual guidance and dedicated service to missionaries worldwide.'
+          name: 'Rev. Timothy Lee Young', 
+          position: 'International Coordinator',
+          image: '/international-leaders/international-leader-timothy-young.jpeg',
+          description: 'Coordinating global ministry efforts and fostering partnerships across international churches and missions.'
         },
         { 
-          name: 'Ptr. Roberto Pascual', 
-          position: 'Secretary',
-          image: '/pastor-robert-pascual.png',
-          description: 'Maintaining organizational excellence and clear communication across our ministry network.'
+          name: 'Engr. Pem Nelmida', 
+          position: 'Financial Officer',
+          image: '/international-leaders/international-leader-pem-nelmida.jpeg',
+          description: 'Managing international finances with integrity and ensuring responsible stewardship of ministry resources.'
         },
         { 
-          name: 'Ptr. Rayner Osuna', 
-          position: 'Treasurer',
-          image: '/pastor-rayner-osuna.jpg',
-          description: 'Managing resources faithfully to support our missionaries and ministry projects with integrity.'
-        },
-        { 
-          name: 'Ptr. Jayson Nablo', 
-          position: 'Auditor',
-          image: '/pastor-jayson-nablo.jpg',
-          description: 'Ensuring financial accountability and transparency in all aspects of ministry operations.'
+          name: 'Mrs. Courteney Young', 
+          position: 'FcfJCM - Secretary',
+          image: '/international-leaders/international-leader-courteney-young.jpeg',
+          description: 'Maintaining organizational records and facilitating effective communication within the international ministry.'
         },
       ]
     },

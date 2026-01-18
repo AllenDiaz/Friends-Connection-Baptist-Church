@@ -29,7 +29,7 @@ export default function LeadershipTeam({ groups }: LeadershipTeamProps) {
               <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center border-b-2 border-blue-600 pb-3">
                 {group.title}
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {group.officers.map((officer, officerIndex) => (
                   <div 
                     key={officerIndex}

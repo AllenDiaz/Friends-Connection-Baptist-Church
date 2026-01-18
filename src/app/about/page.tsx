@@ -35,34 +35,34 @@ export default function About() {
       title: 'Friends Connection for Jesus Christ Ministries Philippines - Officers',
       officers: [
         { 
-          name: 'Rev. Alfredo (Fred) Eborda', 
-          position: 'President',
-          image: '/living-water-baptist-church-pastor.jpg',
-          description: 'Leading Philippine operations with vision and commitment to strengthening local churches.'
+          name: 'Rev. & Mrs. Alfredo Eborda Jr.', 
+          position: 'Founder/President',
+          image: '/philippine-leaders/philippine-leader-alfredo-eborda.jpeg',
+          description: 'Founding leaders with a heart for Philippine ministries, guiding local churches and pastors with wisdom and dedication.'
         },
         { 
-          name: 'Ptr. Roberto Pascual', 
-          position: 'Vice President',
-          image: '/pastor-robert-pascual.png',
-          description: 'Supporting church growth and pastoral development throughout the Philippines.'
+          name: 'Rev. Timothy Lee Young', 
+          position: 'International Coordinator',
+          image: '/philippine-leaders/philippine-leader-timothy-young.jpeg',
+          description: 'Bridging international partnerships and coordinating ministry efforts between Philippine and global church networks.'
         },
         { 
-          name: 'Ptr. Wilfredo (Jun) Jimenez', 
+          name: 'Ptr. Rolando De Guzman', 
+          position: 'National Coordinator',
+          image: '/philippine-leaders/philippine-leader-rolando-de-guzman.jpg',
+          description: 'Overseeing national operations and coordinating church activities throughout the Philippines with pastoral care.'
+        },
+        { 
+          name: 'Ms. Lilia Dela Cruz', 
           position: 'Secretary',
-          image: '/pastor-wilfredo-jimenez.jpg',
-          description: 'Coordinating ministry activities and maintaining effective communication among churches.'
+          image: '/philippine-leaders/philippine-leader-lilia-delacruz.jpeg',
+          description: 'Managing administrative duties and maintaining clear communication across all Philippine ministry operations.'
         },
         { 
-          name: 'Ptr. Carlito Gaña', 
+          name: 'Mrs. Myrna Pascual', 
           position: 'Treasurer',
-          image: '/pastor-carlito-gana.jpg',
-          description: 'Stewarding financial resources to empower local ministries and community outreach.'
-        },
-        { 
-          name: 'Ptr. Felix Agustin', 
-          position: 'Auditor',
-          image: '/pastor-felix-agustin.jpg',
-          description: 'Ensuring fiscal responsibility and proper stewardship of ministry funds.'
+          image: '/philippine-leaders/philippine-leader-myrna-pascual.jpeg',
+          description: 'Stewarding financial resources with integrity to support Philippine churches and ministry initiatives.'
         },
       ]
     }

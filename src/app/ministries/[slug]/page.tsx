@@ -11,12 +11,12 @@ const ministries = [
     id: 'bible-basketball',
     name: 'Bible Basketball',
     description: 'Combining athletic excellence with spiritual growth, our Bible Basketball ministry uses sports to reach youth and build character through faith-based basketball programs and tournaments.',
-    image: '/minitries/bible-basketball/basketball-1.jpeg',
+    image: '/ministries/bible-basketball/basketball-1.jpeg',
     gallery: [
-      '/minitries/bible-basketball/basketball-1.jpeg',
-      '/minitries/bible-basketball/baskeball-2.jpeg',
-      '/minitries/bible-basketball/basketball-3.jpeg',
-      '/minitries/bible-basketball/basketball-4.jpeg'
+      '/ministries/bible-basketball/basketball-1.jpeg',
+      '/ministries/bible-basketball/baskeball-2.jpeg',
+      '/ministries/bible-basketball/basketball-3.jpeg',
+      '/ministries/bible-basketball/basketball-4.jpeg'
     ],
     schedule: 'Tuesdays & Thursdays 6:00 PM, Saturday tournaments',
     location: 'Various church gymnasiums',
@@ -46,7 +46,12 @@ const ministries = [
     id: 'indigenous-evangelism',
     name: 'Indigenous Evangelism',
     description: 'Reaching out to indigenous communities with the Gospel, providing culturally sensitive ministry, and supporting local missionaries working in remote areas.',
-    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80',
+    image: '/ministries/indigenous-evangelism/indigenous-1.jpg',
+    gallery: [
+      '/ministries/indigenous-evangelism/indigenous-1.jpg',
+      '/ministries/indigenous-evangelism/indigenous-2.jpg',
+      '/ministries/indigenous-evangelism/indigenous-3.jpg'
+    ],
     schedule: 'Monthly mission trips, Weekly prayer meetings Wednesdays 7:00 PM',
     location: 'Mission field and home churches',
     contactEmail: 'indigenous@friendsconnection.org',
@@ -63,7 +68,7 @@ const ministries = [
       'Provide training and resources for cultural contextualization'
     ],
     activities: [
-      'Monthly mission trips to indigenous communities',
+      'Scheduled mission trips to indigenous communities',
       'Weekly prayer meetings for missionary support',
       'Scripture translation and distribution projects',
       'Cultural sensitivity training for mission teams',

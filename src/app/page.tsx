@@ -326,13 +326,13 @@ export default function Home() {
                 id: "bible-basketball",
                 title: "Bible Basketball", 
                 desc: "Combining athletic excellence with spiritual growth through faith-based basketball programs",
-                image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80"
+                image: "/ministries/bible-basketball/basketball-1.jpeg"
               },
               { 
                 id: "indigenous-evangelism",
                 title: "Indigenous Evangelism", 
                 desc: "Reaching indigenous communities with culturally sensitive ministry and Gospel support",
-                image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80"
+                image: "/ministries/indigenous-evangelism/indigenous-1.jpg"
               },
               { 
                 id: "bible-school",

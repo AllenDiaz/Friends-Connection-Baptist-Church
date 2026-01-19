@@ -8,7 +8,7 @@ const ministries: MinistryData[] = [
     id: 'bible-basketball',
     name: 'Bible Basketball',
     description: 'Combining athletic excellence with spiritual growth, our Bible Basketball ministry uses sports to reach youth and build character through faith-based basketball programs and tournaments.',
-    image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80',
+    image: '/ministries/bible-basketball/basketball-1.jpeg',
     schedule: 'Tuesdays & Thursdays 6:00 PM, Saturday tournaments',
     location: 'Various church gymnasiums',
     contactEmail: 'basketball@friendsconnection.org'
@@ -17,7 +17,7 @@ const ministries: MinistryData[] = [
     id: 'indigenous-evangelism',
     name: 'Indigenous Evangelism',
     description: 'Reaching out to indigenous communities with the Gospel, providing culturally sensitive ministry, and supporting local missionaries working in remote areas.',
-    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80',
+    image: '/ministries/indigenous-evangelism/indigenous-1.jpg',
     schedule: 'Monthly mission trips, Weekly prayer meetings Wednesdays 7:00 PM',
     location: 'Mission field and home churches',
     contactEmail: 'indigenous@friendsconnection.org'

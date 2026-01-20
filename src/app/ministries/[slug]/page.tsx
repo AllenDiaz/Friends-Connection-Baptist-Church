@@ -20,7 +20,7 @@ const ministries = [
     ],
     schedule: 'Tuesdays & Thursdays 6:00 PM, Saturday tournaments',
     location: 'Various church gymnasiums',
-    contactEmail: 'basketball@friendsconnection.org',
+    contactEmail: 'fcfjc.ministries@gmail.com',
     fullDescription: `Our Bible Basketball ministry is a dynamic program that combines the excitement of basketball with biblical teaching and character development. We believe that sports can be a powerful tool for ministry, reaching young people where they are and showing them the love of Christ through competition, teamwork, and fellowship.
 
     Through weekly practices, skill development sessions, and competitive tournaments, we create opportunities for youth to grow both athletically and spiritually. Each session includes devotionals, prayer time, and character-building lessons that help participants develop integrity, discipline, and leadership skills.
@@ -54,7 +54,7 @@ const ministries = [
     ],
     schedule: 'Monthly mission trips, Weekly prayer meetings Wednesdays 7:00 PM',
     location: 'Mission field and home churches',
-    contactEmail: 'indigenous@friendsconnection.org',
+    contactEmail: 'fcfjc.ministries@gmail.com',
     fullDescription: `Our Indigenous Evangelism ministry is dedicated to bringing the Gospel to indigenous communities throughout the Philippines. We recognize the unique cultural contexts and needs of these communities and work to share Christ's love in ways that are respectful, relevant, and transformative.
 
     Through partnership with local missionaries and indigenous church leaders, we support ongoing evangelistic efforts and church planting initiatives in remote areas. Our approach emphasizes cultural sensitivity, language translation, and sustainable ministry models that empower indigenous believers to lead their own communities.
@@ -89,7 +89,7 @@ const ministries = [
     ],
     schedule: 'Sundays 9:00 AM, Wednesday evening classes 7:00 PM',
     location: 'Purok 4 Nieves San Leonardo Nueva Ecija',
-    contactEmail: 'bibleschool@friendsconnection.org',
+    contactEmail: 'fcfjc.ministries@gmail.com',
     fullDescription: `Our Bible School provides comprehensive biblical education for believers at every stage of their spiritual journey. We are committed to making quality theological education accessible to everyone - all courses are offered with NO TUITION FEES, and qualifying students receive financial allowances to support their studies.
 
     Our curriculum covers systematic theology, biblical interpretation, church history, practical ministry skills, and more. Classes are taught by experienced pastors and teachers who are passionate about making complex theological concepts accessible and applicable to everyday life.
@@ -127,7 +127,7 @@ const ministries = [
     ],
     schedule: 'Monthly medical outreach, Quarterly international trips',
     location: 'Local community centers and international mission fields',
-    contactEmail: 'medical@friendsconnection.org',
+    contactEmail: 'fcfjc.ministries@gmail.com',
     fullDescription: `Our Medical Mission ministry brings the healing hands of Christ to communities in need. Through free medical clinics, health education programs, and compassionate care, we demonstrate God's love in practical ways while sharing the hope of the Gospel.
 
     Our team includes doctors, nurses, dentists, pharmacists, and other healthcare professionals who volunteer their time and expertise to serve the underserved. We provide quality medical care, distribute essential medications, and offer health education to help communities improve their overall wellbeing.

@@ -18,7 +18,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-robert-young.jpg',
     address: '5955 Park Blvd North Pinellas Park Florida, 33781',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -30,7 +30,7 @@ const churches: ChurchData[] = [
     pastorImage: '/livig-water-baptist-church-pastor.jpg',
     address: 'Nieves, San Leonardo Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -42,7 +42,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-robert-pascual.png',
     address: 'Tabuating, San Leonardo Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -54,7 +54,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-rayner-osuna.jpg',
     address: 'Brgy. Sisilang Bongabon Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -66,7 +66,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-jayson-nablo.jpg',
     address: 'Brgy. Cuyapa Gabaldon Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -78,7 +78,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-isagani-dela-cruz.jpg',
     address: 'Palayan City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -90,7 +90,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-rolly-de-guzman.jpg',
     address: 'Taguig City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -102,7 +102,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-carlito-gana.jpg',
     address: 'Brgy. Holy Spirit, Quezon City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -114,7 +114,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-wilfredo-jimenez.jpg',
     address: 'Brgy. Batia Bocaue Bulacan',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -126,7 +126,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-felix-agustin.jpg',
     address: 'San Pedro, Laguna',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -138,7 +138,7 @@ const churches: ChurchData[] = [
     pastorImage: '/rodolfo-jun-rivera.jpg',
     address: 'Bocaue Bulacan',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -150,7 +150,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-pedro-gil-batalla.jpg',
     address: 'Legaspi City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -162,7 +162,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-prince-barquilla.jpg',
     address: 'Mambangnan San Leonardo Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   },
   {
@@ -174,7 +174,7 @@ const churches: ChurchData[] = [
     pastorImage: '/pastor-alex-castro.jpeg',
     address: 'Bocaue Bulacan',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times'
   }
 ];

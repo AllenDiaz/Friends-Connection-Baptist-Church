@@ -11,7 +11,7 @@ const ministries: MinistryData[] = [
     image: '/ministries/bible-basketball/basketball-1.jpeg',
     schedule: 'Tuesdays & Thursdays 6:00 PM, Saturday tournaments',
     location: 'Various church gymnasiums',
-    contactEmail: 'basketball@friendsconnection.org'
+    contactEmail: 'fcfjc.ministries@gmail.com'
   },
   {
     id: 'indigenous-evangelism',
@@ -20,7 +20,7 @@ const ministries: MinistryData[] = [
     image: '/ministries/indigenous-evangelism/indigenous-1.jpg',
     schedule: 'Monthly mission trips, Weekly prayer meetings Wednesdays 7:00 PM',
     location: 'Mission field and home churches',
-    contactEmail: 'indigenous@friendsconnection.org'
+    contactEmail: 'fcfjc.ministries@gmail.com'
   },
   {
     id: 'bible-school',
@@ -29,7 +29,7 @@ const ministries: MinistryData[] = [
     image: '/ministries/bible-school/bible-school-1.jpeg',
     schedule: 'Sundays 9:00 AM, Wednesday evening classes 7:00 PM',
     location: 'Rotating between churches',
-    contactEmail: 'bibleschool@friendsconnection.org'
+    contactEmail: 'fcfjc.ministries@gmail.com'
   },
   {
     id: 'medical-mission',
@@ -38,7 +38,7 @@ const ministries: MinistryData[] = [
     image: '/ministries/medical-mission/medical-1.jpg',
     schedule: 'Monthly medical outreach, Quarterly international trips',
     location: 'Local community centers and international mission fields',
-    contactEmail: 'medical@friendsconnection.org'
+    contactEmail: 'fcfjc.ministries@gmail.com'
   }
 ];
 

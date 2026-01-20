@@ -21,7 +21,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-robert-young.jpg',
     address: '5955 Park Blvd North Pinellas Park Florida, 33781',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'International Baptist Church of Pinellas INC represents the international expansion of Friends Connection ministry, bringing the Gospel message to the diverse community of Pinellas Park, Florida. The church serves as a bridge between cultures while maintaining strong biblical foundations.',
     services: [
@@ -64,7 +64,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/living-water-baptist-church-pastor.jpg',
     address: 'Nieves, San Leonardo Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'Living Water Baptist Church of Nueva Ecija has served the Nieves community with dedication and love, establishing a strong foundation of biblical teaching and Christian fellowship. The church has grown under the faithful ministry of Rev. Alfredo Eborda, becoming a beacon of hope and spiritual nourishment in San Leonardo.',
     services: [
@@ -106,7 +106,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-robert-pascual.png',
     address: 'Tabuating, San Leonardo Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'Friendship Gospel Bible Baptist Church has been serving the community of Tabuating for many years, establishing a strong foundation of biblical teaching and Christian fellowship that has become the cornerstone of the Friends Connection network.',
     services: [
@@ -147,7 +147,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-rayner-osuna.jpg',
     address: 'Brgy. Sisilang Bongabon Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'As a mission church of the Friends Connection network, this congregation has grown from humble beginnings to become a vital part of the Bongabon community, reaching out to families and individuals with the love of Christ.',
     services: [
@@ -187,7 +187,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-jayson-nablo.jpg',
     address: 'Brgy. Cuyapa Gabaldon Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'This mission church represents the expanding reach of Friends Connection into rural communities, bringing the Gospel message and Christian fellowship to families in Gabaldon and surrounding areas.',
     services: [
@@ -219,7 +219,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-isagani-dela-cruz.jpg',
     address: 'Palayan City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'Good Shepherd Baptist Church has established itself as a beacon of hope in Palayan City, providing faithful ministry and community care that reflects the loving nature of Christ, the Good Shepherd.',
     services: [
@@ -251,7 +251,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-rolly-de-guzman.jpg',
     address: 'Taguig City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'As an incorporated church in Metro Manila, Shiloh Redeemer has established itself as a place of spiritual refuge and community service, serving the diverse population of Taguig City with excellence and dedication.',
     services: [
@@ -283,7 +283,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-carlito-gana.jpg',
     address: 'Brgy. Holy Spirit, Quezon City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'Born Again Baptist Bible Church has been a witness to the transformative power of the Gospel in Quezon City, helping many discover new life in Christ and grow in their faith journey.',
     services: [
@@ -315,7 +315,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-wilfredo-jimenez.jpg',
     address: 'Brgy. Batia Bocaue Bulacan',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'Glorious Grace Baptist Church has been a testimony to God\'s abundant grace in Bocaue, Bulacan, sharing the message of hope and salvation with families throughout the region.',
     services: [
@@ -347,7 +347,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-felix-agustin.jpg',
     address: 'San Pedro, Laguna',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'Amazing Grace Bible Baptist Church has established a strong foundation of biblical teaching in San Pedro, Laguna, helping believers grow in their understanding of God\'s amazing grace.',
     services: [
@@ -379,7 +379,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/rodolfo-jun-rivera.jpg',
     address: 'Bocaue Bulacan',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'This church has been a source of blessing to the Bocaue community, living up to its name by being a great blessing to families and individuals through faithful ministry and community service.',
     services: [
@@ -411,7 +411,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-pedro-gil-batalla.jpg',
     address: 'Legaspi City',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'As the first pilgrim church in the region, this congregation has pioneered faithful Christian witness in Legaspi City, establishing a strong foundation of faith and perseverance.',
     services: [
@@ -443,7 +443,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-prince-barquilla.jpg',
     address: 'Mambangnan San Leonardo Nueva Ecija',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'New Hope Baptist Church has been a beacon of hope in Mambangnan, offering fresh starts and new beginnings to individuals and families through the transforming power of the Gospel.',
     services: [
@@ -475,7 +475,7 @@ const churchData: { [key: string]: ChurchData & {
     pastorImage: '/pastor-alex-castro.jpeg',
     address: 'Bocaue Bulacan',
     phone: 'Contact through Friends Connection',
-    email: 'info@friendsconnection.org',
+    email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
     history: 'Moriah Baptist Church has been built on the foundation of God\'s faithfulness and provision. Named after Mount Moriah, the place where God provided for Abraham, this church embodies the principle that God will always provide for His people. Ptr. Alex Castro leads this congregation with a heart for discipleship and community transformation.',
     services: [

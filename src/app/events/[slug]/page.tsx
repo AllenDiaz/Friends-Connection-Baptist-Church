@@ -37,6 +37,7 @@ import {
 } from '@/lib/eventUtils';
 import { Button } from '@/components/ui/Button';
 import EventCard from '@/components/events/EventCard';
+import ImageGallery from '@/components/ImageGallery';
 
 interface EventPageProps {
   params: {
@@ -112,7 +113,7 @@ export default function EventPage({ params }: EventPageProps) {
 VERSION:2.0
 PRODID:-//Friends Connection Baptist Church//Events//EN
 BEGIN:VEVENT
-UID:${event.id}@friendsconnection.org
+UID:${event.id}@fcfjc.ministries.gmail.com
 DTSTAMP:${formatICSDate(new Date())}
 DTSTART:${formatICSDate(startDate)}
 DTEND:${formatICSDate(endDate)}
@@ -322,6 +323,14 @@ END:VCALENDAR`;
                   {event.description}
                 </p>
               </div>
+
+              {/* Image Gallery */}
+              {event.gallery && event.gallery.length > 0 && (
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Event Gallery</h2>
+                  <ImageGallery images={event.gallery} ministryName={event.title} />
+                </div>
+              )}
 
               {/* Event Details */}
               <div className="bg-white rounded-lg shadow-md p-6">

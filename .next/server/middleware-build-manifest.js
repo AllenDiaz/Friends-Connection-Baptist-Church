@@ -4,9 +4,21 @@ globalThis.__BUILD_MANIFEST = {
   },
   "devFiles": [],
   "ampDevFiles": [],
-  "polyfillFiles": [],
+  "polyfillFiles": [
+    "static/chunks/7a226_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
   "lowPriorityFiles": [],
-  "rootMainFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_7a626aef._.js",
+    "static/chunks/7a226_next_dist_compiled_react-dom_d338be5c._.js",
+    "static/chunks/7a226_next_dist_compiled_next-devtools_index_7083effa.js",
+    "static/chunks/7a226_next_dist_compiled_4e4b1b3c._.js",
+    "static/chunks/7a226_next_dist_client_84f039f6._.js",
+    "static/chunks/7a226_next_dist_80b90f15._.js",
+    "static/chunks/7a226_@swc_helpers_cjs_5061f958._.js",
+    "static/chunks/ce802_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a0ff3932._.js",
+    "static/chunks/5a167_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a01cc351._.js"
+  ],
   "ampFirstPages": []
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [

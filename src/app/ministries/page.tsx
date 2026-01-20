@@ -25,8 +25,8 @@ const ministries: MinistryData[] = [
   {
     id: 'bible-school',
     name: 'Bible School',
-    description: 'Equipping believers with solid biblical knowledge through systematic theology, biblical studies, and practical ministry training for all ages and spiritual maturity levels.',
-    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80',
+    description: 'Equipping believers with solid biblical knowledge through systematic theology, biblical studies, and practical ministry training for all ages and spiritual maturity levels. No tuition required with allowances provided.',
+    image: '/ministries/bible-school/bible-school-1.jpeg',
     schedule: 'Sundays 9:00 AM, Wednesday evening classes 7:00 PM',
     location: 'Rotating between churches',
     contactEmail: 'bibleschool@friendsconnection.org'

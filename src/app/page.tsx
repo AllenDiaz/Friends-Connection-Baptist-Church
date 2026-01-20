@@ -338,7 +338,7 @@ export default function Home() {
                 id: "bible-school",
                 title: "Bible School", 
                 desc: "Equipping believers with biblical knowledge through systematic theology and ministry training",
-                image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+                image: "/ministries/bible-school/bible-school-1.jpeg"
               },
               { 
                 id: "medical-mission",

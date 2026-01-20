@@ -80,22 +80,29 @@ const ministries = [
   {
     id: 'bible-school',
     name: 'Bible School',
-    description: 'Equipping believers with solid biblical knowledge through systematic theology, biblical studies, and practical ministry training for all ages and spiritual maturity levels.',
-    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80',
+    description: 'Equipping believers with solid biblical knowledge through systematic theology, biblical studies, and practical ministry training for all ages and spiritual maturity levels. No tuition required with allowances provided.',
+    image: '/ministries/bible-school/bible-school-1.jpeg',
+    gallery: [
+      '/ministries/bible-school/bible-school-1.jpeg',
+      '/ministries/bible-school/bible-school-2.jpeg',
+      '/ministries/bible-school/bible-school-3.jpeg'
+    ],
     schedule: 'Sundays 9:00 AM, Wednesday evening classes 7:00 PM',
-    location: 'Rotating between churches',
+    location: 'Purok 4 Nieves San Leonardo Nueva Ecija',
     contactEmail: 'bibleschool@friendsconnection.org',
-    fullDescription: `Our Bible School provides comprehensive biblical education for believers at every stage of their spiritual journey. From foundational doctrines to advanced theological studies, we offer courses designed to deepen understanding of God's Word and equip students for effective ministry.
+    fullDescription: `Our Bible School provides comprehensive biblical education for believers at every stage of their spiritual journey. We are committed to making quality theological education accessible to everyone - all courses are offered with NO TUITION FEES, and qualifying students receive financial allowances to support their studies.
 
     Our curriculum covers systematic theology, biblical interpretation, church history, practical ministry skills, and more. Classes are taught by experienced pastors and teachers who are passionate about making complex theological concepts accessible and applicable to everyday life.
 
-    Whether you're a new believer seeking to establish a strong foundation, a ministry leader looking to sharpen your skills, or simply someone who wants to grow deeper in your knowledge of Scripture, our Bible School offers programs tailored to your needs.`,
+    Whether you're a new believer seeking to establish a strong foundation, a ministry leader looking to sharpen your skills, or simply someone who wants to grow deeper in your knowledge of Scripture, our Bible School offers programs tailored to your needs. Financial barriers should never prevent someone from studying God's Word - that's why we provide free education and financial support to our students.`,
     goals: [
       'Provide systematic biblical and theological education',
       'Equip believers for ministry and Christian service',
       'Develop strong biblical literacy across our churches',
       'Train future pastors and church leaders',
-      'Foster a love for Scripture and sound doctrine'
+      'Foster a love for Scripture and sound doctrine',
+      'Offer free education with no tuition fees',
+      'Provide financial allowances to support students in their studies'
     ],
     activities: [
       'Sunday morning Bible study courses (9:00 AM)',

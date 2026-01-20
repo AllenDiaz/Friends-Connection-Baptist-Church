@@ -344,7 +344,7 @@ export default function Home() {
                 id: "medical-mission",
                 title: "Medical Mission", 
                 desc: "Providing healthcare services and medical support combined with compassionate spiritual care",
-                image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80"
+                image: "/ministries/medical-mission/medical-1.jpg"
               }
             ].map((ministry, index) => (
               <Link 
@@ -356,7 +356,7 @@ export default function Home() {
                   <img
                     src={ministry.image}
                     alt={ministry.title}
-                    className="w-full h-full object-cover"
+                    className={`w-full h-full object-cover ${ministry.id === 'medical-mission' ? 'object-top' : ''}`}
                   />
                 </div>
                 <div className="p-6">

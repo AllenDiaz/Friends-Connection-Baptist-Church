@@ -32,7 +32,7 @@ const MinistryCard = ({ ministry, className = '' }: MinistryCardProps) => {
             src={ministry.image}
             alt={ministry.name}
             fill
-            className="object-cover"
+            className={`object-cover ${ministry.id === 'medical-mission' ? 'object-top' : ''}`}
           />
         </div>
       )}

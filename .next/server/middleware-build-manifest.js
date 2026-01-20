@@ -1,51 +1,12 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": [
-      "static/chunks/7a226_next_dist_compiled_next-devtools_index_936d1b28.js",
-      "static/chunks/7a226_next_dist_compiled_5a0bbf5f._.js",
-      "static/chunks/7a226_next_dist_shared_lib_e7a9be9c._.js",
-      "static/chunks/7a226_next_dist_client_6cf62e2c._.js",
-      "static/chunks/7a226_next_dist_7d68cdde._.js",
-      "static/chunks/7a226_next_app_4ccec074.js",
-      "static/chunks/[next]_entry_page-loader_ts_f248c4ec._.js",
-      "static/chunks/7a226_react-dom_a00e70e8._.js",
-      "static/chunks/7a226_fb25299d._.js",
-      "static/chunks/[root-of-the-server]__a426d629._.js",
-      "static/chunks/a43ba_Friends-Connection-Project_Friends-Connection-Baptist-Church_pages__app_2da965e7._.js",
-      "static/chunks/e6a17_Friends-Connection-Project_Friends-Connection-Baptist-Church_pages__app_b72740ac._.js"
-    ],
-    "/_error": [
-      "static/chunks/7a226_next_dist_compiled_next-devtools_index_936d1b28.js",
-      "static/chunks/7a226_next_dist_compiled_5a0bbf5f._.js",
-      "static/chunks/7a226_next_dist_shared_lib_015a92a2._.js",
-      "static/chunks/7a226_next_dist_client_6cf62e2c._.js",
-      "static/chunks/7a226_next_dist_eeaa6537._.js",
-      "static/chunks/7a226_next_error_83abca5c.js",
-      "static/chunks/[next]_entry_page-loader_ts_0063b0ca._.js",
-      "static/chunks/7a226_react-dom_a00e70e8._.js",
-      "static/chunks/7a226_fb25299d._.js",
-      "static/chunks/[root-of-the-server]__b440527f._.js",
-      "static/chunks/3dba0_iends-Connection-Project_Friends-Connection-Baptist-Church_pages__error_2da965e7._.js",
-      "static/chunks/e9b42_iends-Connection-Project_Friends-Connection-Baptist-Church_pages__error_b8564e05._.js"
-    ]
+    "/_app": []
   },
   "devFiles": [],
   "ampDevFiles": [],
-  "polyfillFiles": [
-    "static/chunks/7a226_next_dist_build_polyfills_polyfill-nomodule.js"
-  ],
+  "polyfillFiles": [],
   "lowPriorityFiles": [],
-  "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_7a626aef._.js",
-    "static/chunks/7a226_next_dist_compiled_react-dom_d338be5c._.js",
-    "static/chunks/7a226_next_dist_compiled_next-devtools_index_7083effa.js",
-    "static/chunks/7a226_next_dist_compiled_4e4b1b3c._.js",
-    "static/chunks/7a226_next_dist_client_84f039f6._.js",
-    "static/chunks/7a226_next_dist_80b90f15._.js",
-    "static/chunks/7a226_@swc_helpers_cjs_5061f958._.js",
-    "static/chunks/ce802_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a0ff3932._.js",
-    "static/chunks/5a167_mygithub_Friends-Connection-Project_Friends-Connection-Baptist-Church_a01cc351._.js"
-  ],
+  "rootMainFiles": [],
   "ampFirstPages": []
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [

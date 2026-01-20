@@ -112,7 +112,12 @@ const ministries = [
     id: 'medical-mission',
     name: 'Medical Mission',
     description: 'Providing healthcare services and medical support to underserved communities, combining professional medical care with compassionate spiritual ministry and health education.',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+    image: '/ministries/medical-mission/medical-1.jpg',
+    gallery: [
+      '/ministries/medical-mission/medical-1.jpg',
+      '/ministries/medical-mission/medical-2.jpg',
+      '/ministries/medical-mission/medical-3.jpg'
+    ],
     schedule: 'Monthly medical outreach, Quarterly international trips',
     location: 'Local community centers and international mission fields',
     contactEmail: 'medical@friendsconnection.org',
@@ -169,7 +174,7 @@ export default function MinistryPage({ params }: MinistryPageProps) {
           <img
             src={ministry.image}
             alt={ministry.name}
-            className="w-full h-full object-cover opacity-50"
+            className={`w-full h-full object-cover opacity-50 ${ministry.id === 'medical-mission' ? 'object-top' : ''}`}
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">

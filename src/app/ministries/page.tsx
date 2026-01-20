@@ -35,7 +35,7 @@ const ministries: MinistryData[] = [
     id: 'medical-mission',
     name: 'Medical Mission',
     description: 'Providing healthcare services and medical support to underserved communities, combining professional medical care with compassionate spiritual ministry and health education.',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+    image: '/ministries/medical-mission/medical-1.jpg',
     schedule: 'Monthly medical outreach, Quarterly international trips',
     location: 'Local community centers and international mission fields',
     contactEmail: 'medical@friendsconnection.org'

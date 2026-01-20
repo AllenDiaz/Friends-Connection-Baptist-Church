@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/ministries/bible-basketball":{},"/ministries/indigenous-evangelism":{},"/ministries/bible-school":{},"/ministries/medical-mission":{}},"dynamicRoutes":{"/ministries/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/ministries/[slug]","routeRegex":"^\\/ministries\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"d8bed65f00a96eee7aaf869ebed63d10","previewModeSigningKey":"7328930527f4989e4fe167c539c4d40cccb627c2ccdc815f9a8cfcd2da7a1ccf","previewModeEncryptionKey":"e89c16fd9f92c574fb88f72660992e511c90adc7d7eadd13bacac7bc77c3b1cd"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "a831e2529df74204a37c510ccb7410ed",
+    "previewModeSigningKey": "ee017f9fb0969fd79b46202e75f1dfd2f390504fffec07f8ff783228754d6e1d",
+    "previewModeEncryptionKey": "959b0cd644b687582e83aa7ba616a4b996489b2f0368dcbf4af8a14dbe14e187"
+  }
+}

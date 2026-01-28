@@ -64,7 +64,7 @@ const churchData: { [key: string]: ChurchData & {
     id: 'living-water-baptist',
     name: 'Living Water Baptist Church of Nueva Ecija',
     description: 'A vibrant community focused on biblical teaching and spiritual growth through the living water of Christ.',
-    fullDescription: 'Living Water Baptist Church of Nueva Ecija has been a cornerstone of faith in the Nieves community. Under the pastoral leadership of Rev. Alfredo Eborda, this church is dedicated to spreading the Gospel and nurturing spiritual growth through the living water of Christ. We believe in the transformative power of God\'s Word and the importance of authentic relationships within our church family.',
+    fullDescription: 'Living Water Baptist Church of Nueva Ecija has been a cornerstone of faith in the Nieves community. Founded by Rev Altimothy Eborda and currently under the pastoral leadership of Rev. Alfredo Eborda, this church is dedicated to spreading the Gospel and nurturing spiritual growth through the living water of Christ. We believe in the transformative power of God\'s Word and the importance of authentic relationships within our church family.',
     image: '/living-water-baptist-church.png',
     pastor: 'Rev. Alfredo Eborda',
     pastorImage: '/living-water-baptist-church-pastor.jpg',
@@ -72,7 +72,7 @@ const churchData: { [key: string]: ChurchData & {
     phone: 'Contact through Friends Connection',
     email: 'fcfjc.ministries@gmail.com',
     serviceTime: 'Sundays - Contact for service times',
-    history: 'Living Water Baptist Church of Nueva Ecija has served the Nieves community with dedication and love, establishing a strong foundation of biblical teaching and Christian fellowship. The church has grown under the faithful ministry of Rev. Alfredo Eborda, becoming a beacon of hope and spiritual nourishment in San Leonardo.',
+    history: 'Founded by Rev Altimothy Eborda, Living Water Baptist Church of Nueva Ecija has served the Nieves community with dedication and love, establishing a strong foundation of biblical teaching and Christian fellowship. The church has grown under the faithful ministry of Rev. Alfredo Eborda, becoming a beacon of hope and spiritual nourishment in San Leonardo.',
     services: [
       {
         id: 'sunday-worship',

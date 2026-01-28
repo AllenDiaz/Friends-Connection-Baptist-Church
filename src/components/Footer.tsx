@@ -7,11 +7,20 @@ import { getNextUpcomingEvents, formatEventDate } from '@/lib/eventUtils';
 
 const Footer = () => {
   const churches = [
-    'Living Water Baptist Church',
-    'Solid Rocks Baptist Church',
-    'Faith Community Church',
-    'Grace Covenant Church',
-    'New Hope Fellowship'
+    { name: 'International Baptist Church of Pinellas INC', slug: 'international-baptist-pinellas' },
+    { name: 'Living Water Baptist Church of Nueva Ecija', slug: 'living-water-baptist' },
+    { name: 'Friendship Gospel Bible Baptist Church', slug: 'friendship-gospel-tabuating' },
+    { name: 'Friendship Gospel Baptist Church Mission of Bongabon', slug: 'friendship-gospel-bongabon' },
+    { name: 'Friendship Gospel Baptist Mission of Gabaldon', slug: 'friendship-gospel-gabaldon' },
+    { name: 'Good Shepherd Baptist Church', slug: 'good-shepherd-palayan' },
+    { name: 'Shiloh Redeemer Baptist Church Inc.', slug: 'shiloh-redeemer-taguig' },
+    { name: 'Born Again Baptist Bible Church', slug: 'born-again-quezon-city' },
+    { name: 'Glorious Grace Baptist Church', slug: 'glorious-grace-bocaue' },
+    { name: 'Amazing Grace Bible Baptist Church', slug: 'amazing-grace-san-pedro' },
+    { name: 'Dakilang Biyaya Baptist Church', slug: 'dakilang-biyaya-bocaue' },
+    { name: 'First Pilgrims Faith Baptist Church', slug: 'first-pilgrims-legaspi' },
+    { name: 'New Hope Baptist Church', slug: 'new-hope-mambangnan' },
+    { name: 'Moriah Baptist Church', slug: 'moriah-baptist' }
   ];
 
   const quickLinks = [
@@ -127,12 +136,12 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Our Churches</h4>
             <ul className="space-y-2">
               {churches.map((church) => (
-                <li key={church}>
+                <li key={church.slug}>
                   <Link 
-                    href={`/churches/${church.toLowerCase().replace(/\s+/g, '-')}`}
+                    href={`/churches/${church.slug}`}
                     className="text-gray-300 hover:text-blue-400 transition-all duration-300 text-sm hover:pl-2 inline-block"
                   >
-                    {church}
+                    {church.name}
                   </Link>
                 </li>
               ))}
@@ -147,15 +156,15 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300 text-sm">
-                    123 Ministry Way<br />
-                    Community City, CC 12345
+                    Nieves, San Leonardo<br />
+                    Nueva Ecija, Philippines
                   </p>
                 </div>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400 flex-shrink-0" />
-                <p className="text-gray-300 text-sm">(555) 123-4567</p>
+                <p className="text-gray-300 text-sm">1 (360) 556-4105</p>
               </div>
               
               <div className="flex items-center space-x-3">

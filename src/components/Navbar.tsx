@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ChevronDownIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -8,6 +8,20 @@ import { ChevronDownIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outli
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = () => {
+    if (dropdownTimeoutRef.current) {
+      clearTimeout(dropdownTimeoutRef.current);
+    }
+    setDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    dropdownTimeoutRef.current = setTimeout(() => {
+      setDropdownOpen(false);
+    }, 200);
+  };
 
   const navigationItems = [
     { name: 'Home', href: '/' },
@@ -16,11 +30,11 @@ const Navbar = () => {
       name: 'Our Churches', 
       href: '/churches',
       dropdown: [
-        { name: 'Living Water Baptist Church', href: '/churches/living-water-baptist' },
-        { name: 'Solid Rocks Baptist Church', href: '/churches/solid-rocks-baptist' },
-        { name: 'Faith Community Church', href: '/churches/faith-community' },
-        { name: 'Grace Covenant Church', href: '/churches/grace-covenant' },
-        { name: 'New Hope Fellowship', href: '/churches/new-hope-fellowship' },
+        { name: 'International Baptist Church of Pinellas INC', href: '/churches/international-baptist-pinellas' },
+        { name: 'Living Water Baptist Church of Nueva Ecija', href: '/churches/living-water-baptist' },
+        { name: 'Friendship Gospel Bible Baptist Church', href: '/churches/friendship-gospel-tabuating' },
+        { name: 'Friendship Gospel Baptist Church Mission of Bongabon', href: '/churches/friendship-gospel-bongabon' },
+        { name: 'Friendship Gospel Baptist Mission of Gabaldon', href: '/churches/friendship-gospel-gabaldon' },
       ]
     },
     { name: 'Ministries', href: '/ministries' },
@@ -58,15 +72,15 @@ const Navbar = () => {
                   {item.dropdown ? (
                     <div
                       className="relative"
-                      onMouseEnter={() => setDropdownOpen(true)}
-                      onMouseLeave={() => setDropdownOpen(false)}
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <button className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium flex items-center transition-all duration-300 hover:scale-105">
                         {item.name}
                         <ChevronDownIcon className="ml-1 h-4 w-4 transition-transform duration-300" />
                       </button>
                       {dropdownOpen && (
-                        <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 z-50 animate-fadeIn">
+                        <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 z-50 animate-fadeIn origin-top">
                           <div className="py-1">
                             {item.dropdown.map((dropdownItem) => (
                               <Link
@@ -77,6 +91,12 @@ const Navbar = () => {
                                 {dropdownItem.name}
                               </Link>
                             ))}
+                            <Link
+                              href="/churches"
+                              className="block px-4 py-2 text-sm font-semibold text-blue-600 hover:bg-blue-50 border-t border-gray-200 transition-all duration-200 hover:pl-6"
+                            >
+                              View All Churches →
+                            </Link>
                           </div>
                         </div>
                       )}
@@ -148,6 +168,13 @@ const Navbar = () => {
                             {dropdownItem.name}
                           </Link>
                         ))}
+                        <Link
+                          href="/churches"
+                          className="text-blue-600 font-semibold hover:text-blue-700 block px-3 py-2 text-sm transition-colors duration-200 border-t border-gray-200 mt-2 pt-2"
+                          onClick={() => setIsOpen(false)}
+                        >
+                          View All Churches →
+                        </Link>
                       </div>
                     )}
                   </div>

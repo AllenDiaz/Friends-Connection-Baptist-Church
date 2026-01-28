@@ -35,7 +35,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Address</h4>
-                      <p className="text-gray-600">123 Ministry Way<br />Community City, CC 12345</p>
+                      <p className="text-gray-600">Nieves, San Leonardo<br />Nueva Ecija, Philippines</p>
                     </div>
                   </div>
                   
@@ -45,7 +45,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Phone</h4>
-                      <p className="text-gray-600">(555) 123-4567</p>
+                      <p className="text-gray-600">1 (360) 556-4105</p>
                     </div>
                   </div>
                   
@@ -72,14 +72,6 @@ export default function Contact() {
                     </div>
                   </div>
                 </div>
-                
-                <div className="mt-8 pt-8 border-t border-gray-200">
-                  <h4 className="font-semibold text-gray-900 mb-4">Emergency Pastoral Care</h4>
-                  <p className="text-gray-600 text-sm">
-                    For pastoral emergencies outside office hours, please call our emergency line:
-                  </p>
-                  <p className="font-semibold text-gray-900 mt-2">(555) 987-6543</p>
-                </div>
               </div>
             </div>
           </div>
@@ -92,41 +84,46 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Visit Our Member Churches</h2>
             <p className="text-lg text-gray-600">
-              Each of our five churches offers unique worship experiences while sharing our common mission
+              Each of our 14 churches offers unique worship experiences while sharing our common mission
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: 'Living Water Baptist Church',
-                address: '123 Faith Avenue, Springfield, IL 62701',
-                phone: '(555) 123-4567',
-                services: 'Sundays 9:00 AM & 11:00 AM'
+                name: 'International Baptist Church of Pinellas INC',
+                address: '5955 Park Blvd North Pinellas Park Florida, 33781',
+                phone: '1 (360) 556-4105',
+                services: 'Contact for service times',
+                slug: 'international-baptist-pinellas'
               },
               {
-                name: 'Solid Rocks Baptist Church',
-                address: '456 Rock Street, Springfield, IL 62702',
-                phone: '(555) 234-5678',
-                services: 'Sundays 10:30 AM'
+                name: 'Living Water Baptist Church of Nueva Ecija',
+                address: 'Nieves, San Leonardo Nueva Ecija',
+                phone: '1 (360) 556-4105',
+                services: 'Contact for service times',
+                slug: 'living-water-baptist'
               },
               {
-                name: 'Faith Community Church',
-                address: '789 Community Blvd, Springfield, IL 62703',
-                phone: '(555) 345-6789',
-                services: 'Sundays 9:30 AM & 6:00 PM'
+                name: 'Friendship Gospel Bible Baptist Church',
+                address: 'Tabuating, San Leonardo Nueva Ecija',
+                phone: '1 (360) 556-4105',
+                services: 'Contact for service times',
+                slug: 'friendship-gospel-tabuating'
               },
               {
-                name: 'Grace Covenant Church',
-                address: '321 Grace Lane, Springfield, IL 62704',
-                phone: '(555) 456-7890',
-                services: 'Sundays 8:30 AM & 11:15 AM'
+                name: 'Good Shepherd Baptist Church',
+                address: 'Palayan City',
+                phone: '1 (360) 556-4105',
+                services: 'Contact for service times',
+                slug: 'good-shepherd-palayan'
               },
               {
-                name: 'New Hope Fellowship',
-                address: '654 Hope Street, Springfield, IL 62705',
-                phone: '(555) 567-8901',
-                services: 'Sundays 10:00 AM'
+                name: 'Shiloh Redeemer Baptist Church Inc.',
+                address: 'Taguig City',
+                phone: '1 (360) 556-4105',
+                services: 'Contact for service times',
+                slug: 'shiloh-redeemer-taguig'
               }
             ].map((church, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
@@ -153,7 +150,7 @@ export default function Contact() {
                 
                 <div className="mt-4 pt-4 border-t border-gray-200">
                   <a 
-                    href={`/churches/${church.name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`}
+                    href={`/churches/${church.slug}`}
                     className="text-blue-600 hover:text-blue-800 text-sm font-medium"
                   >
                     Learn More →

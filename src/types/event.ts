@@ -100,6 +100,7 @@ export interface Event {
   startTime: string; // Format: "HH:MM AM/PM"
   endTime?: string;
   allDay?: boolean;
+  isTBA?: boolean; // If true, display "TBA" instead of dates in frontend
   
   // Location
   location: EventLocation;

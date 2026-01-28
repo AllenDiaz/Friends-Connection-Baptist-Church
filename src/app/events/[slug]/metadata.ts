@@ -2,8 +2,9 @@ import { Metadata } from 'next';
 import { getEventBySlug } from '@/data/events';
 import { formatEventDate } from '@/lib/eventUtils';
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const event = getEventBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const event = getEventBySlug(slug);
 
   if (!event) {
     return {

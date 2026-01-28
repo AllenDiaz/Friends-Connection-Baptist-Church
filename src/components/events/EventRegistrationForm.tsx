@@ -194,7 +194,7 @@ const EventRegistrationForm = ({
             <div>
               <p className="font-medium text-green-800">Registration Submitted Successfully!</p>
               <p className="text-sm text-green-700 mt-1">
-                We've sent a confirmation email to {formData.email}. Please check your inbox.
+                We&apos;ve sent a confirmation email to {formData.email}. Please check your inbox.
               </p>
             </div>
           </div>

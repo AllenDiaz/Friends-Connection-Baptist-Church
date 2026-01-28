@@ -3,7 +3,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
 import Script from 'next/script';
 import {
   Calendar,
@@ -40,13 +40,14 @@ import EventCard from '@/components/events/EventCard';
 import ImageGallery from '@/components/ImageGallery';
 
 interface EventPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export default function EventPage({ params }: EventPageProps) {
-  const event = getEventBySlug(params.slug);
+  const { slug } = use(params);
+  const event = getEventBySlug(slug);
   const [showShareMenu, setShowShareMenu] = useState(false);
   const [registrationSubmitted, setRegistrationSubmitted] = useState(false);
   const [formData, setFormData] = useState({
@@ -292,9 +293,9 @@ END:VCALENDAR`;
               <div className="flex flex-wrap gap-4 text-sm">
                 <div className="flex items-center gap-2 bg-white/20 px-3 py-1 rounded-full">
                   <Calendar className="w-4 h-4" />
-                  <span>{formatEventDate(event.startDate, event.endDate, true)}</span>
+                  <span>{event.isTBA ? 'TBA' : formatEventDate(event.startDate, event.endDate, true)}</span>
                 </div>
-                {event.startTime && (
+                {event.startTime && !event.isTBA && (
                   <div className="flex items-center gap-2 bg-white/20 px-3 py-1 rounded-full">
                     <Clock className="w-4 h-4" />
                     <span>{formatEventTime(event.startTime, event.endTime)}</span>
@@ -303,7 +304,7 @@ END:VCALENDAR`;
                 <div className="flex items-center gap-2 bg-white/20 px-3 py-1 rounded-full">
                   <MapPin className="w-4 h-4" />
                   <span>
-                    {event.location.isVirtual ? 'Virtual Event' : event.location.city}
+                    {event.isTBA ? 'TBA' : (event.location.isVirtual ? 'Virtual Event' : event.location.city)}
                   </span>
                 </div>
               </div>
@@ -343,11 +344,13 @@ END:VCALENDAR`;
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Date & Time</h3>
-                      <p className="text-gray-600">{formatEventDate(event.startDate, event.endDate, false)}</p>
-                      {event.startTime && (
+                      <p className="text-gray-600">
+                        {event.isTBA ? 'TBA' : formatEventDate(event.startDate, event.endDate, false)}
+                      </p>
+                      {event.startTime && !event.isTBA && (
                         <p className="text-gray-600">{formatEventTime(event.startTime, event.endTime)}</p>
                       )}
-                      {daysUntil !== null && daysUntil >= 0 && (
+                      {daysUntil !== null && daysUntil >= 0 && !event.isTBA && (
                         <p className="text-sm text-blue-600 mt-1">
                           {daysUntil === 0 ? 'Today!' : `${daysUntil} days away`}
                         </p>
@@ -618,7 +621,7 @@ END:VCALENDAR`;
                       <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-2" />
                       <p className="text-green-800 font-semibold">Registration Successful!</p>
                       <p className="text-sm text-green-600 mt-1">
-                        You'll receive a confirmation email shortly.
+                        You&apos;ll receive a confirmation email shortly.
                       </p>
                     </div>
                   ) : (

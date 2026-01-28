@@ -9,7 +9,7 @@ export default function About() {
           name: 'Rev. & Mrs. Alfredo Eborda Jr.', 
           position: 'Founder/President',
           image: '/international-leaders/international-leader-alfredo-eborda.jpeg',
-          description: 'Founding leaders guiding the international vision and strategic direction of Friends Connection ministry worldwide.'
+          description: 'Rev. Alfredo Eborda Jr. and his wife Jing Eborda serve as founding leaders guiding the international vision and strategic direction of Friends Connection ministry worldwide.'
         },
         { 
           name: 'Rev. Timothy Lee Young', 
@@ -38,7 +38,7 @@ export default function About() {
           name: 'Rev. & Mrs. Alfredo Eborda Jr.', 
           position: 'Founder/President',
           image: '/philippine-leaders/philippine-leader-alfredo-eborda.jpeg',
-          description: 'Founding leaders with a heart for Philippine ministries, guiding local churches and pastors with wisdom and dedication.'
+          description: 'Rev. Alfredo Eborda Jr. and his wife Jing Eborda serve as founding leaders with a heart for Philippine ministries, guiding local churches and pastors with wisdom and dedication.'
         },
         { 
           name: 'Rev. Timothy Lee Young', 

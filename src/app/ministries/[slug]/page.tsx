@@ -5,6 +5,12 @@ import { Clock, MapPin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import ImageGallery from '@/components/ImageGallery';
 
+interface MinistryPageProps {
+  params: Promise<{
+    slug: string;
+  }>;
+}
+
 // Ministry data
 const ministries = [
   {
@@ -155,9 +161,9 @@ const ministries = [
 ];
 
 interface MinistryPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -166,8 +172,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function MinistryPage({ params }: MinistryPageProps) {
-  const ministry = ministries.find((m) => m.id === params.slug);
+export default async function MinistryPage({ params }: MinistryPageProps) {
+  const { slug } = await params;
+  const ministry = ministries.find((m) => m.id === slug);
 
   if (!ministry) {
     notFound();

@@ -62,8 +62,8 @@ const EventFilters = ({
 
   const handleClearFilters = () => {
     const clearedFilters: EventFiltersType = {
-      category: 'all',
-      status: 'all',
+      category: 'all' as const,
+      status: 'all' as const,
       search: '',
       dateFrom: undefined,
       dateTo: undefined,
@@ -245,7 +245,7 @@ const EventFilters = ({
                   {categoryInfo[localFilters.category as EventCategory]?.label}
                   <button
                     onClick={() => {
-                      const newFilters = { ...localFilters, category: 'all' };
+                      const newFilters = { ...localFilters, category: 'all' as const };
                       setLocalFilters(newFilters);
                       onFilterChange(newFilters);
                     }}
@@ -260,7 +260,7 @@ const EventFilters = ({
                   {localFilters.status === 'upcoming' ? 'Upcoming' : 'Past Events'}
                   <button
                     onClick={() => {
-                      const newFilters = { ...localFilters, status: 'all' };
+                      const newFilters = { ...localFilters, status: 'all' as const };
                       setLocalFilters(newFilters);
                       onFilterChange(newFilters);
                     }}

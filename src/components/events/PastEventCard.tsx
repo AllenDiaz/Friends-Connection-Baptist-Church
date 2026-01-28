@@ -143,7 +143,7 @@ const PastEventCard = ({ event, className = '' }: PastEventCardProps) => {
                       </div>
                     )}
                   </div>
-                  <p className="text-sm text-gray-700 italic">"{testimonial.comment}"</p>
+                  <p className="text-sm text-gray-700 italic">&ldquo;{testimonial.comment}&rdquo;</p>
                 </div>
               ))}
             </div>

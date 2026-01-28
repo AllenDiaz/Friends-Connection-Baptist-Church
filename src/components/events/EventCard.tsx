@@ -92,9 +92,9 @@ const EventCard = ({ event, className = '', showFullDescription = false }: Event
             <Calendar className="w-4 h-4 mr-2 mt-0.5 text-blue-600 flex-shrink-0" />
             <div>
               <p className="font-medium">
-                {formatEventDate(event.startDate, event.endDate, true)}
+                {event.isTBA ? 'TBA' : formatEventDate(event.startDate, event.endDate, true)}
               </p>
-              {event.startTime && (
+              {event.startTime && !event.isTBA && (
                 <p className="text-gray-600">
                   {formatEventTime(event.startTime, event.endTime)}
                 </p>

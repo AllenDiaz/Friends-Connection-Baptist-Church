@@ -58,12 +58,12 @@ const Footer = () => {
                 >
                   <p className="text-sm text-blue-100 mb-1 flex items-center gap-2">
                     <Calendar className="w-3 h-3" />
-                    {formatEventDate(event.startDate, event.endDate, false)}
+                    {event.isTBA ? 'TBA' : formatEventDate(event.startDate, event.endDate, false)}
                   </p>
                   <h4 className="font-semibold text-white mb-1 group-hover:text-blue-100 transition-colors line-clamp-1">
                     {event.title}
                   </h4>
-                  {event.startTime && (
+                  {event.startTime && !event.isTBA && (
                     <p className="text-sm text-blue-200">{event.startTime}</p>
                   )}
                 </Link>

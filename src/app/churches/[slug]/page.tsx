@@ -5,6 +5,12 @@ import ContactForm from '@/components/ContactForm';
 import { ChurchData } from '@/components/ChurchCard';
 import { ServiceData } from '@/components/ServiceCard';
 
+interface ChurchPageProps {
+  params: Promise<{
+    slug: string;
+  }>;
+}
+
 // Friends Connection Churches Data
 const churchData: { [key: string]: ChurchData & { 
   fullDescription: string;
